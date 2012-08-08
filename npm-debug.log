@@ -1,0 +1,2809 @@
+info it worked if it ends with ok
+verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+verbose cli   'install' ]
+info using npm@1.1.24
+info using node@v0.6.19
+verbose C:\Program Files (x86)\nodejs\\node.exe node symlink
+verbose config file C:\Users\Office\.npmrc
+verbose config file C:\Program Files (x86)\nodejs\etc\npmrc
+verbose config file C:\Program Files (x86)\nodejs\node_modules\npm\npmrc
+verbose caching C:\Users\Office\Workspace\node\omega_device\package.json
+verbose loadDefaults omega-machine@0.1.0
+verbose readDependencies: using package.json deps
+verbose where, deps [ 'C:\\Users\\Office\\Workspace\\node\\omega_device',
+verbose where, deps   [ 'connect',
+verbose where, deps     'connect-assetmanager',
+verbose where, deps     'connect-assetmanager-handlers',
+verbose where, deps     'express',
+verbose where, deps     'socket.io',
+verbose where, deps     'connect-redis',
+verbose where, deps     'connect-notifo',
+verbose where, deps     'airbrake',
+verbose where, deps     'passport',
+verbose where, deps     'bcrypt',
+verbose where, deps     'mongodb',
+verbose where, deps     'moment',
+verbose where, deps     'emailjs',
+verbose where, deps     'mocha',
+verbose where, deps     'jade',
+verbose where, deps     'stylus',
+verbose where, deps     'supertest' ] ]
+verbose from cache C:\Users\Office\Workspace\node\omega_device\package.json
+info preinstall omega-machine@0.1.0
+verbose from cache C:\Users\Office\Workspace\node\omega_device\package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'connect-assetmanager@*', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'connect-assetmanager@*',
+silly cache add: name, spec, args   [ 'connect-assetmanager@*', null ] ]
+verbose parsed url { pathname: 'connect-assetmanager@*',
+verbose parsed url   path: 'connect-assetmanager@*',
+verbose parsed url   href: 'connect-assetmanager@*' }
+silly cache add: name, spec, args [ 'connect-assetmanager', '*', [ 'connect-assetmanager', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'connect-assetmanager', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'connect-assetmanager', '', false ]
+verbose cache add [ 'connect-assetmanager-handlers@*', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'connect-assetmanager-handlers@*',
+silly cache add: name, spec, args   [ 'connect-assetmanager-handlers@*', null ] ]
+verbose parsed url { pathname: 'connect-assetmanager-handlers@*',
+verbose parsed url   path: 'connect-assetmanager-handlers@*',
+verbose parsed url   href: 'connect-assetmanager-handlers@*' }
+silly cache add: name, spec, args [ 'connect-assetmanager-handlers',
+silly cache add: name, spec, args   '*',
+silly cache add: name, spec, args   [ 'connect-assetmanager-handlers', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'connect-assetmanager-handlers', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'connect-assetmanager-handlers', '', false ]
+verbose cache add [ 'express@*', null ]
+silly cache add: name, spec, args [ undefined, 'express@*', [ 'express@*', null ] ]
+verbose parsed url { pathname: 'express@*', path: 'express@*', href: 'express@*' }
+silly cache add: name, spec, args [ 'express', '*', [ 'express', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'express', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'express', '', false ]
+verbose cache add [ 'socket.io@*', null ]
+silly cache add: name, spec, args [ undefined, 'socket.io@*', [ 'socket.io@*', null ] ]
+verbose parsed url { pathname: 'socket.io@*',
+verbose parsed url   path: 'socket.io@*',
+verbose parsed url   href: 'socket.io@*' }
+silly cache add: name, spec, args [ 'socket.io', '*', [ 'socket.io', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'socket.io', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'socket.io', '', false ]
+verbose cache add [ 'connect-redis@*', null ]
+silly cache add: name, spec, args [ undefined, 'connect-redis@*', [ 'connect-redis@*', null ] ]
+verbose parsed url { pathname: 'connect-redis@*',
+verbose parsed url   path: 'connect-redis@*',
+verbose parsed url   href: 'connect-redis@*' }
+silly cache add: name, spec, args [ 'connect-redis', '*', [ 'connect-redis', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'connect-redis', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'connect-redis', '', false ]
+verbose cache add [ 'connect-notifo@*', null ]
+silly cache add: name, spec, args [ undefined, 'connect-notifo@*', [ 'connect-notifo@*', null ] ]
+verbose parsed url { pathname: 'connect-notifo@*',
+verbose parsed url   path: 'connect-notifo@*',
+verbose parsed url   href: 'connect-notifo@*' }
+silly cache add: name, spec, args [ 'connect-notifo', '*', [ 'connect-notifo', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'connect-notifo', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'connect-notifo', '', false ]
+verbose cache add [ 'airbrake@*', null ]
+silly cache add: name, spec, args [ undefined, 'airbrake@*', [ 'airbrake@*', null ] ]
+verbose parsed url { pathname: 'airbrake@*',
+verbose parsed url   path: 'airbrake@*',
+verbose parsed url   href: 'airbrake@*' }
+silly cache add: name, spec, args [ 'airbrake', '*', [ 'airbrake', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'airbrake', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'airbrake', '', false ]
+verbose cache add [ 'passport@*', null ]
+silly cache add: name, spec, args [ undefined, 'passport@*', [ 'passport@*', null ] ]
+verbose parsed url { pathname: 'passport@*',
+verbose parsed url   path: 'passport@*',
+verbose parsed url   href: 'passport@*' }
+silly cache add: name, spec, args [ 'passport', '*', [ 'passport', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'passport', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'passport', '', false ]
+verbose cache add [ 'bcrypt@*', null ]
+silly cache add: name, spec, args [ undefined, 'bcrypt@*', [ 'bcrypt@*', null ] ]
+verbose parsed url { pathname: 'bcrypt@*', path: 'bcrypt@*', href: 'bcrypt@*' }
+silly cache add: name, spec, args [ 'bcrypt', '*', [ 'bcrypt', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'bcrypt', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'bcrypt', '', false ]
+verbose cache add [ 'mongodb@*', null ]
+silly cache add: name, spec, args [ undefined, 'mongodb@*', [ 'mongodb@*', null ] ]
+verbose parsed url { pathname: 'mongodb@*', path: 'mongodb@*', href: 'mongodb@*' }
+silly cache add: name, spec, args [ 'mongodb', '*', [ 'mongodb', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'mongodb', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'mongodb', '', false ]
+verbose cache add [ 'moment@*', null ]
+silly cache add: name, spec, args [ undefined, 'moment@*', [ 'moment@*', null ] ]
+verbose parsed url { pathname: 'moment@*', path: 'moment@*', href: 'moment@*' }
+silly cache add: name, spec, args [ 'moment', '*', [ 'moment', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'moment', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'moment', '', false ]
+verbose cache add [ 'emailjs@*', null ]
+silly cache add: name, spec, args [ undefined, 'emailjs@*', [ 'emailjs@*', null ] ]
+verbose parsed url { pathname: 'emailjs@*', path: 'emailjs@*', href: 'emailjs@*' }
+silly cache add: name, spec, args [ 'emailjs', '*', [ 'emailjs', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'emailjs', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'emailjs', '', false ]
+verbose cache add [ 'mocha@*', null ]
+silly cache add: name, spec, args [ undefined, 'mocha@*', [ 'mocha@*', null ] ]
+verbose parsed url { pathname: 'mocha@*', path: 'mocha@*', href: 'mocha@*' }
+silly cache add: name, spec, args [ 'mocha', '*', [ 'mocha', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'mocha', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'mocha', '', false ]
+verbose cache add [ 'jade@*', null ]
+silly cache add: name, spec, args [ undefined, 'jade@*', [ 'jade@*', null ] ]
+verbose parsed url { pathname: 'jade@*', path: 'jade@*', href: 'jade@*' }
+silly cache add: name, spec, args [ 'jade', '*', [ 'jade', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'jade', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'jade', '', false ]
+verbose cache add [ 'stylus@*', null ]
+silly cache add: name, spec, args [ undefined, 'stylus@*', [ 'stylus@*', null ] ]
+verbose parsed url { pathname: 'stylus@*', path: 'stylus@*', href: 'stylus@*' }
+silly cache add: name, spec, args [ 'stylus', '*', [ 'stylus', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'stylus', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'stylus', '', false ]
+verbose cache add [ 'supertest@*', null ]
+silly cache add: name, spec, args [ undefined, 'supertest@*', [ 'supertest@*', null ] ]
+verbose parsed url { pathname: 'supertest@*',
+verbose parsed url   path: 'supertest@*',
+verbose parsed url   href: 'supertest@*' }
+silly cache add: name, spec, args [ 'supertest', '*', [ 'supertest', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'supertest', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'supertest', '', false ]
+verbose cache add [ 'connect@*', null ]
+silly cache add: name, spec, args [ undefined, 'connect@*', [ 'connect@*', null ] ]
+verbose parsed url { pathname: 'connect@*', path: 'connect@*', href: 'connect@*' }
+silly cache add: name, spec, args [ 'connect', '*', [ 'connect', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'connect', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'connect', '', false ]
+verbose raw, before any munging connect-assetmanager
+verbose url resolving [ 'https://registry.npmjs.org/', './connect-assetmanager' ]
+verbose url resolved https://registry.npmjs.org/connect-assetmanager
+http GET https://registry.npmjs.org/connect-assetmanager
+verbose raw, before any munging connect-assetmanager-handlers
+verbose url resolving [ 'https://registry.npmjs.org/',
+verbose url resolving   './connect-assetmanager-handlers' ]
+verbose url resolved https://registry.npmjs.org/connect-assetmanager-handlers
+http GET https://registry.npmjs.org/connect-assetmanager-handlers
+verbose raw, before any munging connect-redis
+verbose url resolving [ 'https://registry.npmjs.org/', './connect-redis' ]
+verbose url resolved https://registry.npmjs.org/connect-redis
+http GET https://registry.npmjs.org/connect-redis
+verbose raw, before any munging connect-notifo
+verbose url resolving [ 'https://registry.npmjs.org/', './connect-notifo' ]
+verbose url resolved https://registry.npmjs.org/connect-notifo
+http GET https://registry.npmjs.org/connect-notifo
+verbose raw, before any munging bcrypt
+verbose url resolving [ 'https://registry.npmjs.org/', './bcrypt' ]
+verbose url resolved https://registry.npmjs.org/bcrypt
+http GET https://registry.npmjs.org/bcrypt
+verbose raw, before any munging mongodb
+verbose url resolving [ 'https://registry.npmjs.org/', './mongodb' ]
+verbose url resolved https://registry.npmjs.org/mongodb
+http GET https://registry.npmjs.org/mongodb
+verbose raw, before any munging mocha
+verbose url resolving [ 'https://registry.npmjs.org/', './mocha' ]
+verbose url resolved https://registry.npmjs.org/mocha
+http GET https://registry.npmjs.org/mocha
+verbose raw, before any munging socket.io
+verbose url resolving [ 'https://registry.npmjs.org/', './socket.io' ]
+verbose url resolved https://registry.npmjs.org/socket.io
+http GET https://registry.npmjs.org/socket.io
+verbose raw, before any munging airbrake
+verbose url resolving [ 'https://registry.npmjs.org/', './airbrake' ]
+verbose url resolved https://registry.npmjs.org/airbrake
+http GET https://registry.npmjs.org/airbrake
+verbose raw, before any munging passport
+verbose url resolving [ 'https://registry.npmjs.org/', './passport' ]
+verbose url resolved https://registry.npmjs.org/passport
+http GET https://registry.npmjs.org/passport
+verbose raw, before any munging moment
+verbose url resolving [ 'https://registry.npmjs.org/', './moment' ]
+verbose url resolved https://registry.npmjs.org/moment
+http GET https://registry.npmjs.org/moment
+verbose raw, before any munging emailjs
+verbose url resolving [ 'https://registry.npmjs.org/', './emailjs' ]
+verbose url resolved https://registry.npmjs.org/emailjs
+http GET https://registry.npmjs.org/emailjs
+verbose raw, before any munging stylus
+verbose url resolving [ 'https://registry.npmjs.org/', './stylus' ]
+verbose url resolved https://registry.npmjs.org/stylus
+http GET https://registry.npmjs.org/stylus
+verbose raw, before any munging supertest
+verbose url resolving [ 'https://registry.npmjs.org/', './supertest' ]
+verbose url resolved https://registry.npmjs.org/supertest
+http GET https://registry.npmjs.org/supertest
+verbose raw, before any munging connect
+verbose url resolving [ 'https://registry.npmjs.org/', './connect' ]
+verbose url resolved https://registry.npmjs.org/connect
+verbose etag "270IS9O7MS8TK35FCIFTJKW6"
+http GET https://registry.npmjs.org/connect
+verbose raw, before any munging jade
+verbose url resolving [ 'https://registry.npmjs.org/', './jade' ]
+verbose url resolved https://registry.npmjs.org/jade
+verbose etag "2F40V0BVHL3RLEJTF5MNV0LR9"
+http GET https://registry.npmjs.org/jade
+verbose raw, before any munging express
+verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+verbose url resolved https://registry.npmjs.org/express
+verbose etag "BBN46MY5X9U6BZK3U8P2Z7S89"
+http GET https://registry.npmjs.org/express
+http 200 https://registry.npmjs.org/connect-notifo
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"F4TANAHUENQHUGPTN088D1L55"',
+silly get cb     date: 'Wed, 08 Aug 2012 10:06:06 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '1077' } ]
+silly name, range, hasData 2 [ 'connect-notifo', '', true ]
+silly versions [ 'connect-notifo', [ '0.0.1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '17b7d1d1c35ab61618b1dabbff4f877a03fd7cf4',
+verbose bin dist     tarball: 'http://registry.npmjs.org/connect-notifo/-/connect-notifo-0.0.1.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/connect-notifo/-/connect-notifo-0.0.1.tgz',
+verbose addRemoteTarball   '17b7d1d1c35ab61618b1dabbff4f877a03fd7cf4' ]
+verbose fetch to C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420362072-0.4861525755841285\tmp.tgz
+http GET https://registry.npmjs.org/connect-notifo/-/connect-notifo-0.0.1.tgz
+http 200 https://registry.npmjs.org/connect-redis
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"2VRBOBXVGUHHNS5Q3IPAVNGW"',
+silly get cb     date: 'Wed, 08 Aug 2012 10:06:06 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '17841' } ]
+silly name, range, hasData 2 [ 'connect-redis', '', true ]
+silly versions [ 'connect-redis',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.1.2',
+silly versions     '0.1.3',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.2.3',
+silly versions     '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.0.2',
+silly versions     '1.0.3',
+silly versions     '1.0.4',
+silly versions     '1.0.5',
+silly versions     '1.0.6',
+silly versions     '1.0.7',
+silly versions     '1.1.0',
+silly versions     '1.2.0',
+silly versions     '1.3.0',
+silly versions     '1.4.0',
+silly versions     '1.4.1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '6248b176682bc76c834460437769e61e0f738440',
+verbose bin dist     tarball: 'http://registry.npmjs.org/connect-redis/-/connect-redis-1.4.1.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/connect-redis/-/connect-redis-1.4.1.tgz',
+verbose addRemoteTarball   '6248b176682bc76c834460437769e61e0f738440' ]
+verbose fetch to C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420363466-0.6706567923538387\tmp.tgz
+http GET https://registry.npmjs.org/connect-redis/-/connect-redis-1.4.1.tgz
+http 200 https://registry.npmjs.org/bcrypt
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"EAK8YR9M48NJLGGW6RTQL66OB"',
+silly get cb     date: 'Wed, 08 Aug 2012 10:06:06 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '57213' } ]
+silly name, range, hasData 2 [ 'bcrypt', '', true ]
+silly versions [ 'bcrypt',
+silly versions   [ '0.1.2',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.1.3',
+silly versions     '0.2.2',
+silly versions     '0.2.3',
+silly versions     '0.2.4',
+silly versions     '0.3.0',
+silly versions     '0.3.1',
+silly versions     '0.3.2',
+silly versions     '0.4.0',
+silly versions     '0.4.1',
+silly versions     '0.5.0',
+silly versions     '0.6.0',
+silly versions     '0.7.0',
+silly versions     '0.7.1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '923e2623331211adcab6ac84ec4fcd41713e1e58',
+verbose bin dist     tarball: 'http://registry.npmjs.org/bcrypt/-/bcrypt-0.7.1.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/bcrypt/-/bcrypt-0.7.1.tgz',
+verbose addRemoteTarball   '923e2623331211adcab6ac84ec4fcd41713e1e58' ]
+verbose fetch to C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420364630-0.5256364208180457\tmp.tgz
+http GET https://registry.npmjs.org/bcrypt/-/bcrypt-0.7.1.tgz
+http 200 https://registry.npmjs.org/connect-assetmanager-handlers
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"4YJJ03PGK456RAF9SFZAJCO4H"',
+silly get cb     date: 'Wed, 08 Aug 2012 10:06:06 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '16373' } ]
+silly name, range, hasData 2 [ 'connect-assetmanager-handlers', '', true ]
+silly versions [ 'connect-assetmanager-handlers',
+silly versions   [ '0.0.1',
+silly versions     '0.0.10',
+silly versions     '0.0.11',
+silly versions     '0.0.12',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.0.6',
+silly versions     '0.0.7',
+silly versions     '0.0.8',
+silly versions     '0.0.9',
+silly versions     '0.0.13',
+silly versions     '0.0.14',
+silly versions     '0.0.15',
+silly versions     '0.0.16',
+silly versions     '0.0.17',
+silly versions     '0.0.18' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '5753b1a2307cd0e2f145b8b6dbae050e00c29510',
+verbose bin dist     tarball: 'http://registry.npmjs.org/connect-assetmanager-handlers/-/connect-assetmanager-handlers-0.0.18.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/connect-assetmanager-handlers/-/connect-assetmanager-handlers-0.0.18.tgz',
+verbose addRemoteTarball   '5753b1a2307cd0e2f145b8b6dbae050e00c29510' ]
+verbose fetch to C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420366067-0.2625417422968894\tmp.tgz
+http GET https://registry.npmjs.org/connect-assetmanager-handlers/-/connect-assetmanager-handlers-0.0.18.tgz
+http 200 https://registry.npmjs.org/mocha
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"4RUCZV95HJS55ER1Y1M2CKCVA"',
+silly get cb     date: 'Wed, 08 Aug 2012 10:06:08 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '52071' } ]
+silly name, range, hasData 2 [ 'mocha', '', true ]
+silly versions [ 'mocha',
+silly versions   [ '0.0.1-alpha1',
+silly versions     '0.0.1-alpha2',
+silly versions     '0.0.1-alpha3',
+silly versions     '0.0.1-alpha4',
+silly versions     '0.0.1-alpha5',
+silly versions     '0.0.1-alpha6',
+silly versions     '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.0.6',
+silly versions     '0.0.7',
+silly versions     '0.0.8',
+silly versions     '0.1.0',
+silly versions     '0.2.0',
+silly versions     '0.3.0',
+silly versions     '0.3.1',
+silly versions     '0.3.2',
+silly versions     '0.3.3',
+silly versions     '0.3.4',
+silly versions     '0.3.6',
+silly versions     '0.4.0',
+silly versions     '0.5.0',
+silly versions     '0.6.0',
+silly versions     '0.7.0',
+silly versions     '0.7.1',
+silly versions     '0.8.0',
+silly versions     '0.8.1',
+silly versions     '0.9.0',
+silly versions     '0.10.0',
+silly versions     '0.10.1',
+silly versions     '0.10.2',
+silly versions     '0.11.0',
+silly versions     '0.12.0',
+silly versions     '0.12.1',
+silly versions     '0.13.0',
+silly versions     '0.14.0',
+silly versions     '0.14.1',
+silly versions     '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.0.2',
+silly versions     '1.0.3',
+silly versions     '1.1.0',
+silly versions     '1.2.0',
+silly versions     '1.2.1',
+silly versions     '1.2.2',
+silly versions     '1.3.0',
+silly versions     '1.3.1',
+silly versions     '1.3.2' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'ab97b4f1e5942b9fe4d4436b8bd9eeda0eb01e13',
+verbose bin dist     tarball: 'http://registry.npmjs.org/mocha/-/mocha-1.3.2.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/mocha/-/mocha-1.3.2.tgz',
+verbose addRemoteTarball   'ab97b4f1e5942b9fe4d4436b8bd9eeda0eb01e13' ]
+verbose fetch to C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420368926-0.8518644287250936\tmp.tgz
+http GET https://registry.npmjs.org/mocha/-/mocha-1.3.2.tgz
+http 200 https://registry.npmjs.org/connect-assetmanager
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"UNGJOM3IY1XW6SN3X6A6W531"',
+silly get cb     date: 'Wed, 08 Aug 2012 10:06:06 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '47992' } ]
+silly name, range, hasData 2 [ 'connect-assetmanager', '', true ]
+silly versions [ 'connect-assetmanager',
+silly versions   [ '0.0.1',
+silly versions     '0.0.10',
+silly versions     '0.0.11',
+silly versions     '0.0.12',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.0.6',
+silly versions     '0.0.7',
+silly versions     '0.0.9',
+silly versions     '0.0.13',
+silly versions     '0.0.14',
+silly versions     '0.0.15',
+silly versions     '0.0.16',
+silly versions     '0.0.17',
+silly versions     '0.0.18',
+silly versions     '0.0.20',
+silly versions     '0.0.21',
+silly versions     '0.0.22',
+silly versions     '0.0.23',
+silly versions     '0.0.24',
+silly versions     '0.0.25',
+silly versions     '0.0.26',
+silly versions     '0.0.27',
+silly versions     '0.0.28' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'b1f64d2c3b6974c7cdeaf045330dab487610a3c4',
+verbose bin dist     tarball: 'http://registry.npmjs.org/connect-assetmanager/-/connect-assetmanager-0.0.28.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/connect-assetmanager/-/connect-assetmanager-0.0.28.tgz',
+verbose addRemoteTarball   'b1f64d2c3b6974c7cdeaf045330dab487610a3c4' ]
+verbose fetch to C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420369819-0.5950910309329629\tmp.tgz
+http GET https://registry.npmjs.org/connect-assetmanager/-/connect-assetmanager-0.0.28.tgz
+http 200 https://registry.npmjs.org/passport
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"DG1MYUX4I3FWPZQKLTK002CFO"',
+silly get cb     date: 'Wed, 08 Aug 2012 10:06:13 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '14576' } ]
+silly name, range, hasData 2 [ 'passport', '', true ]
+silly versions [ 'passport',
+silly versions   [ '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.1.2',
+silly versions     '0.1.3',
+silly versions     '0.1.4',
+silly versions     '0.1.5',
+silly versions     '0.1.6',
+silly versions     '0.1.7',
+silly versions     '0.1.8',
+silly versions     '0.1.9',
+silly versions     '0.1.10',
+silly versions     '0.1.11',
+silly versions     '0.1.12' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'a3fc6b515933f0a782bfefbc11c6e9f5644fe7d0',
+verbose bin dist     tarball: 'http://registry.npmjs.org/passport/-/passport-0.1.12.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/passport/-/passport-0.1.12.tgz',
+verbose addRemoteTarball   'a3fc6b515933f0a782bfefbc11c6e9f5644fe7d0' ]
+verbose fetch to C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420370164-0.031298879999667406\tmp.tgz
+http GET https://registry.npmjs.org/passport/-/passport-0.1.12.tgz
+http 200 https://registry.npmjs.org/moment
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"82TSRE0YWLGSQUEW5F0DSDKWD"',
+silly get cb     date: 'Wed, 08 Aug 2012 10:06:14 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '23356' } ]
+silly name, range, hasData 2 [ 'moment', '', true ]
+silly versions [ 'moment',
+silly versions   [ '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.1.0',
+silly versions     '1.1.1',
+silly versions     '1.2.0',
+silly versions     '1.3.0',
+silly versions     '1.4.0',
+silly versions     '1.5.0',
+silly versions     '1.5.1',
+silly versions     '1.6.0',
+silly versions     '1.6.1',
+silly versions     '1.6.2',
+silly versions     '1.7.0' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '6f3d73a446c6bd6af1b993801d0b8071efad5e28',
+verbose bin dist     tarball: 'http://registry.npmjs.org/moment/-/moment-1.7.0.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/moment/-/moment-1.7.0.tgz',
+verbose addRemoteTarball   '6f3d73a446c6bd6af1b993801d0b8071efad5e28' ]
+verbose fetch to C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420371868-0.6851434106938541\tmp.tgz
+http GET https://registry.npmjs.org/moment/-/moment-1.7.0.tgz
+http 200 https://registry.npmjs.org/emailjs
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"WDXPA96ELZRJDLRYD9RB6V1N"',
+silly get cb     date: 'Wed, 08 Aug 2012 10:06:14 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '24000' } ]
+silly name, range, hasData 2 [ 'emailjs', '', true ]
+silly versions [ 'emailjs',
+silly versions   [ '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.1.2',
+silly versions     '0.1.3',
+silly versions     '0.1.4',
+silly versions     '0.1.5',
+silly versions     '0.1.6',
+silly versions     '0.1.7',
+silly versions     '0.1.8',
+silly versions     '0.1.9',
+silly versions     '0.1.10',
+silly versions     '0.1.11',
+silly versions     '0.1.12',
+silly versions     '0.1.13',
+silly versions     '0.1.14',
+silly versions     '0.1.15',
+silly versions     '0.1.16',
+silly versions     '0.1.17',
+silly versions     '0.1.18',
+silly versions     '0.1.19',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.2.4',
+silly versions     '0.2.5',
+silly versions     '0.2.7',
+silly versions     '0.2.8',
+silly versions     '0.2.9',
+silly versions     '0.3.0',
+silly versions     '0.3.1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '4a2782c3852cf6b792b688b24742a09ee5e2dfd9',
+verbose bin dist     tarball: 'http://registry.npmjs.org/emailjs/-/emailjs-0.3.1.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/emailjs/-/emailjs-0.3.1.tgz',
+verbose addRemoteTarball   '4a2782c3852cf6b792b688b24742a09ee5e2dfd9' ]
+verbose fetch to C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420372901-0.4906396782025695\tmp.tgz
+http GET https://registry.npmjs.org/emailjs/-/emailjs-0.3.1.tgz
+http 200 https://registry.npmjs.org/supertest
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"E61JW07YEDYMJ080ECSM30JKA"',
+silly get cb     date: 'Wed, 08 Aug 2012 10:06:17 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '5022' } ]
+silly name, range, hasData 2 [ 'supertest', '', true ]
+silly versions [ 'supertest', [ '0.0.1', '0.1.0', '0.1.1', '0.1.2' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '868a854457d9900f30b0179c621da84deb3ce693',
+verbose bin dist     tarball: 'http://registry.npmjs.org/supertest/-/supertest-0.1.2.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/supertest/-/supertest-0.1.2.tgz',
+verbose addRemoteTarball   '868a854457d9900f30b0179c621da84deb3ce693' ]
+verbose fetch to C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420373626-0.19760404783301055\tmp.tgz
+http GET https://registry.npmjs.org/supertest/-/supertest-0.1.2.tgz
+http 200 https://registry.npmjs.org/airbrake
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"9IR9GQZRVGJ9O9RWE7HV4C8P7"',
+silly get cb     date: 'Wed, 08 Aug 2012 10:06:10 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '60796' } ]
+silly name, range, hasData 2 [ 'airbrake', '', true ]
+silly versions [ 'airbrake',
+silly versions   [ '0.0.0',
+silly versions     '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.0.6',
+silly versions     '0.0.7',
+silly versions     '0.0.8',
+silly versions     '0.0.9',
+silly versions     '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.2.3',
+silly versions     '0.2.4',
+silly versions     '0.2.5',
+silly versions     '0.2.6',
+silly versions     '0.2.7',
+silly versions     '0.2.8',
+silly versions     '0.2.9' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'aaf05d3e7669889767183053eecacd50007f8bc3',
+verbose bin dist     tarball: 'http://registry.npmjs.org/airbrake/-/airbrake-0.2.9.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/airbrake/-/airbrake-0.2.9.tgz',
+verbose addRemoteTarball   'aaf05d3e7669889767183053eecacd50007f8bc3' ]
+verbose fetch to C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420375186-0.5571659514680505\tmp.tgz
+http GET https://registry.npmjs.org/airbrake/-/airbrake-0.2.9.tgz
+http 200 https://registry.npmjs.org/stylus
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"EJ5KWDGT1OTXKMVHJH50DNBHL"',
+silly get cb     date: 'Wed, 08 Aug 2012 10:06:16 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '113506' } ]
+silly name, range, hasData 2 [ 'stylus', '', true ]
+silly versions [ 'stylus',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.1.0',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.3.0',
+silly versions     '0.3.1',
+silly versions     '0.4.0',
+silly versions     '0.4.1',
+silly versions     '0.5.0',
+silly versions     '0.5.1',
+silly versions     '0.5.2',
+silly versions     '0.5.3',
+silly versions     '0.6.0',
+silly versions     '0.6.2',
+silly versions     '0.6.3',
+silly versions     '0.6.4',
+silly versions     '0.6.5',
+silly versions     '0.6.6',
+silly versions     '0.6.7',
+silly versions     '0.7.0',
+silly versions     '0.7.1',
+silly versions     '0.7.2',
+silly versions     '0.7.3',
+silly versions     '0.7.4',
+silly versions     '0.8.0',
+silly versions     '0.9.0',
+silly versions     '0.9.1',
+silly versions     '0.9.2',
+silly versions     '0.10.0',
+silly versions     '0.11.0',
+silly versions     '0.11.1',
+silly versions     '0.11.2',
+silly versions     '0.11.3',
+silly versions     '0.11.4',
+silly versions     '0.11.5',
+silly versions     '0.11.6',
+silly versions     '0.11.7',
+silly versions     '0.11.8',
+silly versions     '0.11.9',
+silly versions     '0.11.10',
+silly versions     '0.11.11',
+silly versions     '0.11.12',
+silly versions     '0.12.0',
+silly versions     '0.12.1',
+silly versions     '0.12.2',
+silly versions     '0.12.3',
+silly versions     '0.12.4',
+silly versions     '0.13.0',
+silly versions     '0.13.1',
+silly versions     '0.13.2',
+silly versions     '0.13.3',
+silly versions     '0.13.4',
+silly versions     '0.13.5',
+silly versions     '0.13.6',
+silly versions     '0.13.7',
+silly versions     '0.13.8',
+silly versions     '0.13.9',
+silly versions     '0.14.0',
+silly versions     '0.15.0',
+silly versions     '0.15.1',
+silly versions     '0.15.2',
+silly versions     '0.15.3',
+silly versions     '0.15.4',
+silly versions     '0.16.0',
+silly versions     '0.17.0',
+silly versions     '0.18.0',
+silly versions     '0.19.0',
+silly versions     '0.19.1',
+silly versions     '0.19.2',
+silly versions     '0.19.3',
+silly versions     '0.19.4',
+silly versions     '0.19.5',
+silly versions     '0.19.6',
+silly versions     '0.19.7',
+silly versions     '0.19.8',
+silly versions     '0.20.0',
+silly versions     '0.20.1',
+silly versions     '0.21.0',
+silly versions     '0.21.1',
+silly versions     '0.21.2',
+silly versions     '0.22.0',
+silly versions     '0.22.1',
+silly versions     '0.22.2',
+silly versions     '0.22.3',
+silly versions     '0.22.4',
+silly versions     '0.22.5',
+silly versions     '0.22.6',
+silly versions     '0.23.0',
+silly versions     '0.24.0',
+silly versions     '0.25.0',
+silly versions     '0.26.0',
+silly versions     '0.26.1',
+silly versions     '0.27.0',
+silly versions     '0.27.1',
+silly versions     '0.27.2',
+silly versions     '0.28.0',
+silly versions     '0.28.1',
+silly versions     '0.28.2' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'd4c67c69e1b21e139143cdecf27f205b3e69e587',
+verbose bin dist     tarball: 'http://registry.npmjs.org/stylus/-/stylus-0.28.2.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/stylus/-/stylus-0.28.2.tgz',
+verbose addRemoteTarball   'd4c67c69e1b21e139143cdecf27f205b3e69e587' ]
+verbose fetch to C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420376966-0.25046950415708125\tmp.tgz
+http GET https://registry.npmjs.org/stylus/-/stylus-0.28.2.tgz
+http 200 https://registry.npmjs.org/jade
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"AROD3TA722HSRLH7TC2KK1RSN"',
+silly get cb     date: 'Wed, 08 Aug 2012 10:06:19 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '64435' } ]
+silly name, range, hasData 2 [ 'jade', '', true ]
+silly versions [ 'jade',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.1.0',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.2.3',
+silly versions     '0.2.4',
+silly versions     '0.3.0',
+silly versions     '0.4.0',
+silly versions     '0.4.1',
+silly versions     '0.5.0',
+silly versions     '0.5.1',
+silly versions     '0.5.2',
+silly versions     '0.5.3',
+silly versions     '0.5.4',
+silly versions     '0.5.5',
+silly versions     '0.5.6',
+silly versions     '0.5.7',
+silly versions     '0.6.0',
+silly versions     '0.6.1',
+silly versions     '0.6.3',
+silly versions     '0.7.0',
+silly versions     '0.7.1',
+silly versions     '0.8.0',
+silly versions     '0.8.1',
+silly versions     '0.8.2',
+silly versions     '0.8.3',
+silly versions     '0.8.4',
+silly versions     '0.8.5',
+silly versions     '0.8.6',
+silly versions     '0.8.7',
+silly versions     '0.8.8',
+silly versions     '0.8.9',
+silly versions     '0.9.0',
+silly versions     '0.9.1',
+silly versions     '0.9.2',
+silly versions     '0.9.3',
+silly versions     '0.10.0',
+silly versions     '0.10.1',
+silly versions     '0.10.2',
+silly versions     '0.10.3',
+silly versions     '0.10.4',
+silly versions     '0.10.5',
+silly versions     '0.10.6',
+silly versions     '0.10.7',
+silly versions     '0.11.0',
+silly versions     '0.11.1',
+silly versions     '0.12.0',
+silly versions     '0.12.1',
+silly versions     '0.12.2',
+silly versions     '0.12.3',
+silly versions     '0.12.4',
+silly versions     '0.13.0',
+silly versions     '0.14.0',
+silly versions     '0.14.1',
+silly versions     '0.14.2',
+silly versions     '0.15.0',
+silly versions     '0.15.1',
+silly versions     '0.15.2',
+silly versions     '0.15.3',
+silly versions     '0.15.4',
+silly versions     '0.16.0',
+silly versions     '0.16.1',
+silly versions     '0.16.2',
+silly versions     '0.16.3',
+silly versions     '0.16.4',
+silly versions     '0.17.0',
+silly versions     '0.18.0',
+silly versions     '0.19.0',
+silly versions     '0.20.0',
+silly versions     '0.20.1',
+silly versions     '0.20.2',
+silly versions     '0.20.3',
+silly versions     '0.21.0',
+silly versions     '0.22.0',
+silly versions     '0.22.1',
+silly versions     '0.23.0',
+silly versions     '0.24.0',
+silly versions     '0.25.0',
+silly versions     '0.26.0',
+silly versions     '0.26.1',
+silly versions     '0.26.2',
+silly versions     '0.26.3',
+silly versions     '0.27.0',
+silly versions     '0.27.1',
+silly versions     '0.27.2' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'a18b7645246165d4e2c284b7773ec8936ccee557',
+verbose bin dist     tarball: 'http://registry.npmjs.org/jade/-/jade-0.27.2.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/jade/-/jade-0.27.2.tgz',
+verbose addRemoteTarball   'a18b7645246165d4e2c284b7773ec8936ccee557' ]
+verbose fetch to C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420378883-0.6835989896208048\tmp.tgz
+http GET https://registry.npmjs.org/jade/-/jade-0.27.2.tgz
+http 200 https://registry.npmjs.org/socket.io
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"5F8OR7SEZZHCBP76QV0G1CZ9Y"',
+silly get cb     date: 'Wed, 08 Aug 2012 10:06:09 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '145553' } ]
+silly name, range, hasData 2 [ 'socket.io', '', true ]
+silly versions [ 'socket.io',
+silly versions   [ '0.3.8',
+silly versions     '0.4.0',
+silly versions     '0.4.1',
+silly versions     '0.5.1',
+silly versions     '0.5.3',
+silly versions     '0.6.0',
+silly versions     '0.6.1',
+silly versions     '0.6.3',
+silly versions     '0.6.4',
+silly versions     '0.6.5',
+silly versions     '0.6.6',
+silly versions     '0.6.7',
+silly versions     '0.6.8',
+silly versions     '0.6.9',
+silly versions     '0.6.10',
+silly versions     '0.6.11',
+silly versions     '0.6.12',
+silly versions     '0.6.14',
+silly versions     '0.6.15',
+silly versions     '0.6.16',
+silly versions     '0.6.17',
+silly versions     '0.6.18',
+silly versions     '0.7.0',
+silly versions     '0.7.1',
+silly versions     '0.7.2',
+silly versions     '0.7.3',
+silly versions     '0.7.4',
+silly versions     '0.7.5',
+silly versions     '0.7.6',
+silly versions     '0.7.7',
+silly versions     '0.7.8',
+silly versions     '0.7.9',
+silly versions     '0.7.10',
+silly versions     '0.7.11',
+silly versions     '0.8.0',
+silly versions     '0.8.1',
+silly versions     '0.8.2',
+silly versions     '0.8.3',
+silly versions     '0.8.4',
+silly versions     '0.8.5',
+silly versions     '0.8.6',
+silly versions     '0.8.7',
+silly versions     '0.9.0',
+silly versions     '0.9.1',
+silly versions     '0.9.1-1',
+silly versions     '0.9.2',
+silly versions     '0.9.3',
+silly versions     '0.9.4',
+silly versions     '0.9.5',
+silly versions     '0.9.6',
+silly versions     '0.9.7',
+silly versions     '0.9.8',
+silly versions     '0.9.9' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '9f1dc1bb22fb03a6dbd5e94a50cf5d6c168823d8',
+verbose bin dist     tarball: 'http://registry.npmjs.org/socket.io/-/socket.io-0.9.9.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/socket.io/-/socket.io-0.9.9.tgz',
+verbose addRemoteTarball   '9f1dc1bb22fb03a6dbd5e94a50cf5d6c168823d8' ]
+verbose fetch to C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420379076-0.7390168346464634\tmp.tgz
+http GET https://registry.npmjs.org/socket.io/-/socket.io-0.9.9.tgz
+http 200 https://registry.npmjs.org/connect-notifo/-/connect-notifo-0.0.1.tgz
+http 200 https://registry.npmjs.org/connect-redis/-/connect-redis-1.4.1.tgz
+silly updated sha bytes 2757
+info shasum 17b7d1d1c35ab61618b1dabbff4f877a03fd7cf4
+info shasum C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420362072-0.4861525755841285\tmp.tgz
+verbose unpack C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420362072-0.4861525755841285\tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry LICENSE
+silly extracting entry package.json
+silly extracting entry README.md
+silly extracting entry lib/notifo.js
+verbose caching C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420362072-0.4861525755841285\package\package.json
+verbose loadDefaults connect-notifo@0.0.1
+verbose from cache C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420362072-0.4861525755841285\package\package.json
+verbose tar.pack [ 'C:\\Users\\Office\\AppData\\Roaming\\npm-cache\\connect-notifo\\0.0.1\\package.tgz',
+verbose tar.pack   'C:\\Users\\Office\\AppData\\Local\\Temp\\npm-1344420362072\\1344420362072-0.4861525755841285\\package' ]
+verbose tarball C:\Users\Office\AppData\Roaming\npm-cache\connect-notifo\0.0.1\package.tgz
+verbose folder C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420362072-0.4861525755841285\package
+verbose unpack C:\Users\Office\AppData\Roaming\npm-cache\connect-notifo\0.0.1\package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly modified mode [ 'package.json', 438, 420 ]
+silly extracting entry README.md
+silly modified mode [ 'README.md', 438, 420 ]
+silly extracting entry LICENSE
+silly modified mode [ 'LICENSE', 438, 420 ]
+silly extracting entry lib/notifo.js
+silly modified mode [ 'lib/notifo.js', 438, 420 ]
+verbose caching C:\Users\Office\AppData\Roaming\npm-cache\connect-notifo\0.0.1\package\package.json
+verbose loadDefaults connect-notifo@0.0.1
+silly updated sha bytes 2703
+info shasum abdf5f09c4350307265972b71b7a7d3d71923589
+info shasum C:\Users\Office\AppData\Roaming\npm-cache\connect-notifo\0.0.1\package.tgz
+verbose from cache C:\Users\Office\AppData\Roaming\npm-cache\connect-notifo\0.0.1\package\package.json
+verbose chmod C:\Users\Office\AppData\Roaming\npm-cache\connect-notifo\0.0.1\package.tgz 644
+silly skipping chown for windows C:\Users\Office\AppData\Roaming\npm-cache\connect-notifo\0.0.1\package.tgz
+silly updated sha bytes 5141
+info shasum 6248b176682bc76c834460437769e61e0f738440
+info shasum C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420363466-0.6706567923538387\tmp.tgz
+verbose unpack C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420363466-0.6706567923538387\tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry test.js
+silly extracting entry bm.js
+silly extracting entry index.js
+silly extracting entry index.html
+silly extracting entry lib/connect-redis.js
+silly extracting entry Makefile
+silly extracting entry History.md
+silly extracting entry Readme.md
+silly extracting entry .gitmodules
+http 200 https://registry.npmjs.org/bcrypt/-/bcrypt-0.7.1.tgz
+http 200 https://registry.npmjs.org/connect-assetmanager-handlers/-/connect-assetmanager-handlers-0.0.18.tgz
+http 200 https://registry.npmjs.org/connect
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"6IRTODP27WF8LUSNTMDNBLFVM"',
+silly get cb     date: 'Wed, 08 Aug 2012 10:06:18 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '95449' } ]
+http 200 https://registry.npmjs.org/mocha/-/mocha-1.3.2.tgz
+http 200 https://registry.npmjs.org/connect-assetmanager/-/connect-assetmanager-0.0.28.tgz
+silly updated sha bytes 26352
+info shasum 923e2623331211adcab6ac84ec4fcd41713e1e58
+info shasum C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420364630-0.5256364208180457\tmp.tgz
+verbose unpack C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420364630-0.5256364208180457\tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry .travis.yml
+silly extracting entry examples/
+silly extracting entry examples/async_compare.js
+silly name, range, hasData 2 [ 'connect', '', true ]
+silly versions [ 'connect',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.0.6',
+silly versions     '0.1.0',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.2.3',
+silly versions     '0.2.4',
+silly versions     '0.2.5',
+silly versions     '0.2.6',
+silly versions     '0.2.7',
+silly versions     '0.3.0',
+silly versions     '0.4.0',
+silly versions     '0.5.0',
+silly versions     '0.5.1',
+silly versions     '0.5.2',
+silly versions     '0.5.3',
+silly versions     '0.5.4',
+silly versions     '0.5.5',
+silly versions     '0.5.6',
+silly versions     '0.5.7',
+silly versions     '0.5.8',
+silly versions     '0.5.9',
+silly versions     '0.5.10',
+silly versions     '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.7.2',
+silly versions     '1.7.3',
+silly versions     '1.8.0',
+silly versions     '1.8.1',
+silly versions     '1.8.2',
+silly versions     '1.8.3',
+silly versions     '1.8.4',
+silly versions     '1.8.5',
+silly versions     '2.0.0',
+silly versions     '2.0.1',
+silly versions     '2.0.2',
+silly versions     '2.0.3',
+silly versions     '1.8.6',
+silly versions     '2.1.0',
+silly versions     '2.1.1',
+silly versions     '2.1.2',
+silly versions     '1.8.7',
+silly versions     '2.1.3',
+silly versions     '2.2.0',
+silly versions     '2.2.1',
+silly versions     '2.2.2',
+silly versions     '2.3.0',
+silly versions     '2.3.1',
+silly versions     '2.3.2',
+silly versions     '2.3.3',
+silly versions     '1.9.0',
+silly versions     '1.9.1',
+silly versions     '2.3.4',
+silly versions     '2.3.5',
+silly versions     '2.3.6',
+silly versions     '2.3.7',
+silly versions     '1.9.2',
+silly versions     '2.3.8',
+silly versions     '2.3.9',
+silly versions     '2.4.0',
+silly versions     '2.4.1',
+silly versions     '2.4.2',
+silly versions     '2.4.3' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'ca532f9315f6a62876af35ef41e09876f083ddc3',
+verbose bin dist     tarball: 'http://registry.npmjs.org/connect/-/connect-2.4.3.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/connect/-/connect-2.4.3.tgz',
+verbose addRemoteTarball   'ca532f9315f6a62876af35ef41e09876f083ddc3' ]
+verbose fetch to C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420381992-0.4247229986358434\tmp.tgz
+silly extracting entry examples/forever_gen_salt.js
+silly extracting entry .npmignore
+silly extracting entry package.json
+silly extracting entry CHANGELOG
+http GET https://registry.npmjs.org/connect/-/connect-2.4.3.tgz
+silly extracting entry wscript
+silly extracting entry build/
+silly extracting entry build/Release/
+silly extracting entry build/Release/.deps/
+silly extracting entry build/Release/.deps/Release/
+silly extracting entry build/Release/.deps/Release/bcrypt_lib.node.d
+silly extracting entry build/Release/.deps/Release/obj.target/
+silly extracting entry build/Release/.deps/Release/obj.target/bcrypt_lib.node.d
+silly extracting entry build/Release/.deps/Release/obj.target/bcrypt_lib/
+silly extracting entry build/Release/.deps/Release/obj.target/bcrypt_lib/src/
+silly extracting entry build/Release/.deps/Release/obj.target/bcrypt_lib/src/bcrypt_node.o.d
+silly extracting entry build/Release/.deps/Release/obj.target/bcrypt_lib/src/blowfish.o.d
+silly extracting entry build/Release/.deps/Release/obj.target/bcrypt_lib/src/bcrypt.o.d
+silly extracting entry test/
+silly extracting entry test/repetitions.js
+silly extracting entry test/deprecated.js
+silly extracting entry test/async.js
+silly extracting entry test/sync.js
+silly extracting entry bcrypt.js
+silly extracting entry binding.gyp
+silly extracting entry LICENSE
+silly extracting entry README.md
+silly extracting entry Makefile
+silly extracting entry src/
+silly extracting entry src/bcrypt.cc
+silly extracting entry src/node_blf.h
+silly extracting entry src/bcrypt_node.cc
+silly extracting entry src/blowfish.cc
+verbose caching C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420363466-0.6706567923538387\package\package.json
+verbose loadDefaults connect-redis@1.4.1
+verbose from cache C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420363466-0.6706567923538387\package\package.json
+verbose tar.pack [ 'C:\\Users\\Office\\AppData\\Roaming\\npm-cache\\connect-redis\\1.4.1\\package.tgz',
+verbose tar.pack   'C:\\Users\\Office\\AppData\\Local\\Temp\\npm-1344420362072\\1344420363466-0.6706567923538387\\package' ]
+verbose tarball C:\Users\Office\AppData\Roaming\npm-cache\connect-redis\1.4.1\package.tgz
+verbose folder C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420363466-0.6706567923538387\package
+verbose unpack C:\Users\Office\AppData\Roaming\npm-cache\connect-redis\1.4.1\package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly modified mode [ 'package.json', 438, 420 ]
+silly extracting entry .npmignore
+silly modified mode [ '.npmignore', 438, 420 ]
+silly extracting entry test.js
+silly modified mode [ 'test.js', 438, 420 ]
+silly extracting entry bm.js
+silly modified mode [ 'bm.js', 438, 420 ]
+silly extracting entry index.js
+silly modified mode [ 'index.js', 438, 420 ]
+silly extracting entry index.html
+silly modified mode [ 'index.html', 438, 420 ]
+silly extracting entry lib/connect-redis.js
+silly modified mode [ 'lib/connect-redis.js', 438, 420 ]
+silly extracting entry Makefile
+silly modified mode [ 'Makefile', 438, 420 ]
+silly extracting entry History.md
+silly modified mode [ 'History.md', 438, 420 ]
+silly extracting entry Readme.md
+silly modified mode [ 'Readme.md', 438, 420 ]
+silly extracting entry .gitmodules
+silly modified mode [ '.gitmodules', 438, 420 ]
+verbose caching C:\Users\Office\AppData\Roaming\npm-cache\connect-redis\1.4.1\package\package.json
+verbose loadDefaults connect-redis@1.4.1
+silly updated sha bytes 5105
+info shasum cd59e58f4d474e43add3c13bebe429f1d20a9069
+info shasum C:\Users\Office\AppData\Roaming\npm-cache\connect-redis\1.4.1\package.tgz
+verbose from cache C:\Users\Office\AppData\Roaming\npm-cache\connect-redis\1.4.1\package\package.json
+verbose chmod C:\Users\Office\AppData\Roaming\npm-cache\connect-redis\1.4.1\package.tgz 644
+silly skipping chown for windows C:\Users\Office\AppData\Roaming\npm-cache\connect-redis\1.4.1\package.tgz
+verbose has bindings.gyp [ undefined,
+verbose has bindings.gyp   { file: 'C:\\Users\\Office\\AppData\\Local\\Temp\\npm-1344420362072\\1344420364630-0.5256364208180457\\package\\package.json',
+verbose has bindings.gyp     gypfile: true,
+verbose has bindings.gyp     contributors: false,
+verbose has bindings.gyp     serverjs: false,
+verbose has bindings.gyp     wscript: true } ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: 'C:\\Users\\Office\\AppData\\Local\\Temp\\npm-1344420362072\\1344420364630-0.5256364208180457\\package\\package.json',
+verbose has wscript     gypfile: true,
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420364630-0.5256364208180457\package\package.json
+verbose loadDefaults bcrypt@0.7.1
+verbose from cache C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420364630-0.5256364208180457\package\package.json
+verbose tar.pack [ 'C:\\Users\\Office\\AppData\\Roaming\\npm-cache\\bcrypt\\0.7.1\\package.tgz',
+verbose tar.pack   'C:\\Users\\Office\\AppData\\Local\\Temp\\npm-1344420362072\\1344420364630-0.5256364208180457\\package' ]
+verbose tarball C:\Users\Office\AppData\Roaming\npm-cache\bcrypt\0.7.1\package.tgz
+verbose folder C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420364630-0.5256364208180457\package
+http 200 https://registry.npmjs.org/passport/-/passport-0.1.12.tgz
+silly updated sha bytes 11412
+info shasum b1f64d2c3b6974c7cdeaf045330dab487610a3c4
+info shasum C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420369819-0.5950910309329629\tmp.tgz
+verbose unpack C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420369819-0.5950910309329629\tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry README.md
+silly extracting entry LICENSE
+silly extracting entry deps/htmlmin.js
+silly extracting entry deps/jsmin.js
+silly extracting entry deps/cssmin.js
+silly extracting entry lib/assetmanager.js
+verbose unpack C:\Users\Office\AppData\Roaming\npm-cache\bcrypt\0.7.1\package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly modified mode [ 'package.json', 438, 420 ]
+silly extracting entry .npmignore
+silly modified mode [ '.npmignore', 438, 420 ]
+silly extracting entry README.md
+silly modified mode [ 'README.md', 438, 420 ]
+silly extracting entry LICENSE
+silly modified mode [ 'LICENSE', 438, 420 ]
+silly extracting entry bcrypt.js
+silly modified mode [ 'bcrypt.js', 438, 420 ]
+silly extracting entry CHANGELOG
+silly modified mode [ 'CHANGELOG', 438, 420 ]
+silly extracting entry examples/async_compare.js
+silly modified mode [ 'examples/async_compare.js', 438, 420 ]
+silly extracting entry examples/forever_gen_salt.js
+silly modified mode [ 'examples/forever_gen_salt.js', 438, 420 ]
+silly extracting entry .travis.yml
+silly modified mode [ '.travis.yml', 438, 420 ]
+silly extracting entry Makefile
+silly modified mode [ 'Makefile', 438, 420 ]
+silly extracting entry binding.gyp
+silly modified mode [ 'binding.gyp', 438, 420 ]
+silly extracting entry src/bcrypt.cc
+silly modified mode [ 'src/bcrypt.cc', 438, 420 ]
+silly extracting entry src/bcrypt_node.cc
+silly modified mode [ 'src/bcrypt_node.cc', 438, 420 ]
+silly extracting entry src/blowfish.cc
+silly modified mode [ 'src/blowfish.cc', 438, 420 ]
+silly extracting entry src/node_blf.h
+silly modified mode [ 'src/node_blf.h', 438, 420 ]
+silly extracting entry test/async.js
+silly modified mode [ 'test/async.js', 438, 420 ]
+silly extracting entry test/deprecated.js
+silly modified mode [ 'test/deprecated.js', 438, 420 ]
+silly extracting entry test/repetitions.js
+silly modified mode [ 'test/repetitions.js', 438, 420 ]
+silly extracting entry test/sync.js
+silly modified mode [ 'test/sync.js', 438, 420 ]
+silly extracting entry wscript
+silly modified mode [ 'wscript', 438, 420 ]
+verbose caching C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420369819-0.5950910309329629\package\package.json
+verbose loadDefaults connect-assetmanager@0.0.28
+verbose from cache C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420369819-0.5950910309329629\package\package.json
+verbose tar.pack [ 'C:\\Users\\Office\\AppData\\Roaming\\npm-cache\\connect-assetmanager\\0.0.28\\package.tgz',
+verbose tar.pack   'C:\\Users\\Office\\AppData\\Local\\Temp\\npm-1344420362072\\1344420369819-0.5950910309329629\\package' ]
+verbose tarball C:\Users\Office\AppData\Roaming\npm-cache\connect-assetmanager\0.0.28\package.tgz
+verbose folder C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420369819-0.5950910309329629\package
+verbose unpack C:\Users\Office\AppData\Roaming\npm-cache\connect-assetmanager\0.0.28\package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly modified mode [ 'package.json', 438, 420 ]
+silly extracting entry README.md
+silly modified mode [ 'README.md', 438, 420 ]
+silly extracting entry LICENSE
+silly modified mode [ 'LICENSE', 438, 420 ]
+silly extracting entry deps/cssmin.js
+silly modified mode [ 'deps/cssmin.js', 438, 420 ]
+silly extracting entry deps/htmlmin.js
+silly modified mode [ 'deps/htmlmin.js', 438, 420 ]
+silly extracting entry deps/jsmin.js
+silly modified mode [ 'deps/jsmin.js', 438, 420 ]
+silly extracting entry lib/assetmanager.js
+silly modified mode [ 'lib/assetmanager.js', 438, 420 ]
+verbose has bindings.gyp [ undefined,
+verbose has bindings.gyp   { file: 'C:\\Users\\Office\\AppData\\Roaming\\npm-cache\\bcrypt\\0.7.1\\package\\package.json',
+verbose has bindings.gyp     gypfile: true,
+verbose has bindings.gyp     contributors: false,
+verbose has bindings.gyp     serverjs: false,
+verbose has bindings.gyp     wscript: true } ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: 'C:\\Users\\Office\\AppData\\Roaming\\npm-cache\\bcrypt\\0.7.1\\package\\package.json',
+verbose has wscript     gypfile: true,
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching C:\Users\Office\AppData\Roaming\npm-cache\bcrypt\0.7.1\package\package.json
+verbose loadDefaults bcrypt@0.7.1
+silly updated sha bytes 25109
+info shasum 96d67994c0445619dca7fdfb5a390ba7a0d49ecc
+info shasum C:\Users\Office\AppData\Roaming\npm-cache\bcrypt\0.7.1\package.tgz
+verbose from cache C:\Users\Office\AppData\Roaming\npm-cache\bcrypt\0.7.1\package\package.json
+verbose chmod C:\Users\Office\AppData\Roaming\npm-cache\bcrypt\0.7.1\package.tgz 644
+silly skipping chown for windows C:\Users\Office\AppData\Roaming\npm-cache\bcrypt\0.7.1\package.tgz
+verbose caching C:\Users\Office\AppData\Roaming\npm-cache\connect-assetmanager\0.0.28\package\package.json
+verbose loadDefaults connect-assetmanager@0.0.28
+silly updated sha bytes 11369
+info shasum bc9fe6deb8448618debdbf339652c6ffc54906c7
+info shasum C:\Users\Office\AppData\Roaming\npm-cache\connect-assetmanager\0.0.28\package.tgz
+verbose from cache C:\Users\Office\AppData\Roaming\npm-cache\connect-assetmanager\0.0.28\package\package.json
+verbose chmod C:\Users\Office\AppData\Roaming\npm-cache\connect-assetmanager\0.0.28\package.tgz 644
+silly skipping chown for windows C:\Users\Office\AppData\Roaming\npm-cache\connect-assetmanager\0.0.28\package.tgz
+silly updated sha bytes 9044
+info shasum a3fc6b515933f0a782bfefbc11c6e9f5644fe7d0
+info shasum C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420370164-0.031298879999667406\tmp.tgz
+verbose unpack C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420370164-0.031298879999667406\tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry LICENSE
+silly extracting entry .travis.yml
+silly extracting entry lib/passport/index.js
+silly extracting entry lib/passport/strategy.js
+silly extracting entry lib/passport/context/http/actions.js
+silly extracting entry lib/passport/context/http/context.js
+silly extracting entry lib/passport/http/request.js
+silly extracting entry lib/passport/middleware/authenticate.js
+silly extracting entry lib/passport/middleware/initialize.js
+silly extracting entry lib/passport/strategies/session.js
+verbose caching C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420370164-0.031298879999667406\package\package.json
+verbose loadDefaults passport@0.1.12
+verbose from cache C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420370164-0.031298879999667406\package\package.json
+verbose tar.pack [ 'C:\\Users\\Office\\AppData\\Roaming\\npm-cache\\passport\\0.1.12\\package.tgz',
+verbose tar.pack   'C:\\Users\\Office\\AppData\\Local\\Temp\\npm-1344420362072\\1344420370164-0.031298879999667406\\package' ]
+verbose tarball C:\Users\Office\AppData\Roaming\npm-cache\passport\0.1.12\package.tgz
+verbose folder C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420370164-0.031298879999667406\package
+verbose unpack C:\Users\Office\AppData\Roaming\npm-cache\passport\0.1.12\package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly modified mode [ 'package.json', 438, 420 ]
+silly extracting entry .npmignore
+silly modified mode [ '.npmignore', 438, 420 ]
+silly extracting entry LICENSE
+silly modified mode [ 'LICENSE', 438, 420 ]
+silly extracting entry .travis.yml
+silly modified mode [ '.travis.yml', 438, 420 ]
+silly extracting entry lib/passport/index.js
+silly modified mode [ 'lib/passport/index.js', 438, 420 ]
+silly extracting entry lib/passport/strategy.js
+silly modified mode [ 'lib/passport/strategy.js', 438, 420 ]
+silly extracting entry lib/passport/context/http/actions.js
+silly modified mode [ 'lib/passport/context/http/actions.js', 438, 420 ]
+silly extracting entry lib/passport/context/http/context.js
+silly modified mode [ 'lib/passport/context/http/context.js', 438, 420 ]
+silly extracting entry lib/passport/http/request.js
+silly modified mode [ 'lib/passport/http/request.js', 438, 420 ]
+silly extracting entry lib/passport/middleware/authenticate.js
+silly modified mode [ 'lib/passport/middleware/authenticate.js', 438, 420 ]
+silly extracting entry lib/passport/middleware/initialize.js
+silly modified mode [ 'lib/passport/middleware/initialize.js', 438, 420 ]
+silly extracting entry lib/passport/strategies/session.js
+silly modified mode [ 'lib/passport/strategies/session.js', 438, 420 ]
+verbose caching C:\Users\Office\AppData\Roaming\npm-cache\passport\0.1.12\package\package.json
+verbose loadDefaults passport@0.1.12
+silly updated sha bytes 8981
+info shasum 76b80c8151b77d96c804ac78436c3512878917d4
+info shasum C:\Users\Office\AppData\Roaming\npm-cache\passport\0.1.12\package.tgz
+verbose from cache C:\Users\Office\AppData\Roaming\npm-cache\passport\0.1.12\package\package.json
+verbose chmod C:\Users\Office\AppData\Roaming\npm-cache\passport\0.1.12\package.tgz 644
+silly skipping chown for windows C:\Users\Office\AppData\Roaming\npm-cache\passport\0.1.12\package.tgz
+http 200 https://registry.npmjs.org/moment/-/moment-1.7.0.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 16732
+info shasum 6f3d73a446c6bd6af1b993801d0b8071efad5e28
+info shasum C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420371868-0.6851434106938541\tmp.tgz
+verbose unpack C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420371868-0.6851434106938541\tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry LICENSE
+silly extracting entry ender.js
+silly extracting entry moment.js
+silly extracting entry Makefile
+silly extracting entry .jshintrc
+silly extracting entry min/lang-all.min.js
+silly extracting entry min/moment.min.js
+silly extracting entry min/moment.min.pretty.js
+silly extracting entry min/lang/bg.js
+silly extracting entry min/lang/fr.js
+silly extracting entry min/lang/gl.js
+silly extracting entry min/lang/hu.js
+silly extracting entry min/lang/is.js
+silly extracting entry min/lang/fr-ca.js
+silly extracting entry min/lang/ja.js
+silly extracting entry min/lang/jp.js
+silly extracting entry min/lang/ko.js
+silly extracting entry min/lang/kr.js
+silly extracting entry min/lang/nb.js
+silly extracting entry min/lang/fi.js
+silly extracting entry min/lang/nl.js
+silly extracting entry min/lang/eu.js
+silly extracting entry min/lang/pl.js
+silly extracting entry min/lang/es.js
+silly extracting entry min/lang/pt-br.js
+silly extracting entry min/lang/en-gb.js
+silly extracting entry min/lang/pt.js
+silly extracting entry min/lang/en-ca.js
+silly extracting entry min/lang/ru.js
+silly extracting entry min/lang/de.js
+silly extracting entry min/lang/sv.js
+silly extracting entry min/lang/da.js
+silly extracting entry min/lang/tr.js
+silly extracting entry min/lang/cv.js
+silly extracting entry min/lang/zh-cn.js
+silly extracting entry min/lang/ca.js
+silly extracting entry min/lang/zh-tw.js
+silly extracting entry min/lang/it.js
+silly extracting entry lang/bg.js
+silly extracting entry lang/fr.js
+silly extracting entry lang/gl.js
+silly extracting entry lang/hu.js
+silly extracting entry lang/is.js
+silly extracting entry lang/fr-ca.js
+silly extracting entry lang/ja.js
+silly extracting entry lang/jp.js
+silly extracting entry lang/ko.js
+silly extracting entry lang/kr.js
+silly extracting entry lang/nb.js
+silly extracting entry lang/fi.js
+silly extracting entry lang/nl.js
+silly extracting entry lang/eu.js
+silly extracting entry lang/pl.js
+silly extracting entry lang/es.js
+silly extracting entry lang/pt-br.js
+silly extracting entry lang/en-gb.js
+silly extracting entry lang/pt.js
+silly extracting entry lang/en-ca.js
+silly extracting entry lang/ru.js
+silly extracting entry lang/de.js
+silly extracting entry lang/sv.js
+silly extracting entry lang/da.js
+silly extracting entry lang/tr.js
+silly extracting entry lang/cv.js
+silly extracting entry lang/zh-cn.js
+silly extracting entry lang/ca.js
+silly extracting entry lang/zh-tw.js
+silly extracting entry lang/it.js
+silly extracting entry .travis.yml
+silly extracting entry readme.md
+silly extracting entry test/filesize-diff.js
+silly extracting entry test/filesize-history.js
+silly extracting entry test/zone.js
+silly extracting entry test/lang/bg.js
+silly extracting entry test/lang/fr.js
+silly extracting entry test/lang/gl.js
+silly extracting entry test/lang/hu.js
+silly extracting entry test/lang/fr-ca.js
+silly extracting entry test/lang/it.js
+silly extracting entry test/lang/ja.js
+silly extracting entry test/lang/jp.js
+silly extracting entry test/lang/ko.js
+silly extracting entry test/lang/kr.js
+silly extracting entry test/lang/fi.js
+silly extracting entry test/lang/nb.js
+silly extracting entry test/lang/eu.js
+silly extracting entry test/lang/nl.js
+silly extracting entry test/lang/es.js
+silly extracting entry test/lang/pl.js
+silly extracting entry test/lang/en.js
+silly extracting entry test/lang/pt-br.js
+silly extracting entry test/lang/en-gb.js
+silly extracting entry test/lang/pt.js
+silly extracting entry test/lang/en-ca.js
+silly extracting entry test/lang/ru.js
+silly extracting entry test/lang/de.js
+silly extracting entry test/lang/sv.js
+silly extracting entry test/lang/da.js
+silly extracting entry test/lang/tr.js
+silly extracting entry test/lang/cv.js
+silly extracting entry test/lang/zh-cn.js
+silly extracting entry test/lang/ca.js
+silly extracting entry test/lang/zh-tw.js
+silly extracting entry test/lang/is.js
+silly extracting entry test/moment/add_subtract.js
+silly extracting entry test/moment/duration.js
+silly extracting entry test/moment/format.js
+silly extracting entry test/moment/getters_setters.js
+silly extracting entry test/moment/diff.js
+silly extracting entry test/moment/is_moment.js
+silly extracting entry test/moment/is_valid.js
+silly extracting entry test/moment/lang.js
+silly extracting entry test/moment/leapyear.js
+silly extracting entry test/moment/mutable.js
+silly extracting entry test/moment/days_in_month.js
+silly extracting entry test/moment/sod_eod.js
+silly extracting entry test/moment/create.js
+silly extracting entry test/moment/utc.js
+silly extracting entry test/moment/humanize_duration.js
+http 200 https://registry.npmjs.org/emailjs/-/emailjs-0.3.1.tgz
+verbose caching C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420371868-0.6851434106938541\package\package.json
+verbose loadDefaults moment@1.7.0
+verbose from cache C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420371868-0.6851434106938541\package\package.json
+verbose tar.pack [ 'C:\\Users\\Office\\AppData\\Roaming\\npm-cache\\moment\\1.7.0\\package.tgz',
+verbose tar.pack   'C:\\Users\\Office\\AppData\\Local\\Temp\\npm-1344420362072\\1344420371868-0.6851434106938541\\package' ]
+verbose tarball C:\Users\Office\AppData\Roaming\npm-cache\moment\1.7.0\package.tgz
+verbose folder C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420371868-0.6851434106938541\package
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 1766
+info shasum ab97b4f1e5942b9fe4d4436b8bd9eeda0eb01e13
+info shasum C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420368926-0.8518644287250936\tmp.tgz
+verbose unpack C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420368926-0.8518644287250936\tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry LICENSE
+silly extracting entry test.js
+silly extracting entry index.js
+silly extracting entry mocha.js
+silly extracting entry my-reporter.js
+silly extracting entry _mocha.js
+silly extracting entry .travis.yml
+silly extracting entry History.md
+silly extracting entry mocha.css
+silly extracting entry images/error.png
+silly extracting entry images/ok.png
+silly extracting entry bin/_mocha
+silly extracting entry bin/mocha
+silly extracting entry lib/utils.js
+silly extracting entry lib/hook.js
+silly extracting entry lib/mocha.js
+silly extracting entry lib/context.js
+silly extracting entry lib/runnable.js
+silly extracting entry lib/runner.js
+silly extracting entry lib/suite.js
+silly extracting entry lib/test.js
+silly extracting entry lib/browser/debug.js
+silly extracting entry lib/browser/diff.js
+silly extracting entry lib/browser/events.js
+silly extracting entry lib/browser/fs.js
+silly extracting entry lib/browser/path.js
+silly extracting entry lib/browser/progress.js
+silly extracting entry lib/browser/tty.js
+silly extracting entry lib/interfaces/bdd.js
+silly extracting entry lib/interfaces/exports.js
+silly extracting entry lib/interfaces/index.js
+silly extracting entry lib/interfaces/qunit.js
+silly extracting entry lib/interfaces/tdd.js
+silly extracting entry lib/reporters/base.js
+silly extracting entry lib/reporters/json-cov.js
+silly extracting entry lib/reporters/json-stream.js
+silly extracting entry lib/reporters/json.js
+silly extracting entry lib/reporters/index.js
+silly extracting entry lib/reporters/doc.js
+silly extracting entry lib/reporters/markdown.js
+silly extracting entry lib/reporters/min.js
+silly extracting entry lib/reporters/nyan.js
+silly extracting entry lib/reporters/progress.js
+silly extracting entry lib/reporters/html.js
+silly extracting entry lib/reporters/spec.js
+silly extracting entry lib/reporters/html-cov.js
+silly extracting entry lib/reporters/tap.js
+silly extracting entry lib/reporters/dot.js
+silly extracting entry lib/reporters/teamcity.js
+silly extracting entry lib/reporters/landing.js
+silly extracting entry lib/reporters/xunit.js
+silly extracting entry lib/reporters/list.js
+silly extracting entry lib/reporters/templates/coverage.jade
+silly extracting entry lib/reporters/templates/menu.jade
+silly extracting entry lib/reporters/templates/script.html
+silly extracting entry lib/reporters/templates/style.html
+silly extracting entry Readme.md
+silly extracting entry Makefile
+verbose unpack C:\Users\Office\AppData\Roaming\npm-cache\moment\1.7.0\package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly modified mode [ 'package.json', 438, 420 ]
+silly extracting entry .npmignore
+silly modified mode [ '.npmignore', 438, 420 ]
+silly extracting entry LICENSE
+silly modified mode [ 'LICENSE', 438, 420 ]
+silly extracting entry ender.js
+silly modified mode [ 'ender.js', 438, 420 ]
+silly extracting entry moment.js
+silly modified mode [ 'moment.js', 438, 420 ]
+silly extracting entry Makefile
+silly modified mode [ 'Makefile', 438, 420 ]
+silly extracting entry .jshintrc
+silly modified mode [ '.jshintrc', 438, 420 ]
+silly extracting entry min/lang-all.min.js
+silly modified mode [ 'min/lang-all.min.js', 438, 420 ]
+silly extracting entry min/moment.min.js
+silly modified mode [ 'min/moment.min.js', 438, 420 ]
+silly extracting entry min/moment.min.pretty.js
+silly modified mode [ 'min/moment.min.pretty.js', 438, 420 ]
+silly extracting entry min/lang/bg.js
+silly modified mode [ 'min/lang/bg.js', 438, 420 ]
+silly extracting entry min/lang/fr.js
+silly modified mode [ 'min/lang/fr.js', 438, 420 ]
+silly extracting entry min/lang/gl.js
+silly modified mode [ 'min/lang/gl.js', 438, 420 ]
+silly extracting entry min/lang/hu.js
+silly modified mode [ 'min/lang/hu.js', 438, 420 ]
+silly extracting entry min/lang/is.js
+silly modified mode [ 'min/lang/is.js', 438, 420 ]
+silly extracting entry min/lang/fr-ca.js
+silly modified mode [ 'min/lang/fr-ca.js', 438, 420 ]
+silly extracting entry min/lang/ja.js
+silly modified mode [ 'min/lang/ja.js', 438, 420 ]
+silly extracting entry min/lang/jp.js
+silly modified mode [ 'min/lang/jp.js', 438, 420 ]
+silly extracting entry min/lang/ko.js
+silly modified mode [ 'min/lang/ko.js', 438, 420 ]
+silly extracting entry min/lang/kr.js
+silly modified mode [ 'min/lang/kr.js', 438, 420 ]
+silly extracting entry min/lang/nb.js
+silly modified mode [ 'min/lang/nb.js', 438, 420 ]
+silly extracting entry min/lang/fi.js
+silly modified mode [ 'min/lang/fi.js', 438, 420 ]
+silly extracting entry min/lang/nl.js
+silly modified mode [ 'min/lang/nl.js', 438, 420 ]
+silly extracting entry min/lang/eu.js
+silly modified mode [ 'min/lang/eu.js', 438, 420 ]
+silly extracting entry min/lang/pl.js
+silly modified mode [ 'min/lang/pl.js', 438, 420 ]
+silly extracting entry min/lang/es.js
+silly modified mode [ 'min/lang/es.js', 438, 420 ]
+silly extracting entry min/lang/pt-br.js
+silly modified mode [ 'min/lang/pt-br.js', 438, 420 ]
+silly extracting entry min/lang/en-gb.js
+silly modified mode [ 'min/lang/en-gb.js', 438, 420 ]
+silly extracting entry min/lang/pt.js
+silly modified mode [ 'min/lang/pt.js', 438, 420 ]
+silly extracting entry min/lang/en-ca.js
+silly modified mode [ 'min/lang/en-ca.js', 438, 420 ]
+silly extracting entry min/lang/ru.js
+silly modified mode [ 'min/lang/ru.js', 438, 420 ]
+silly extracting entry min/lang/de.js
+silly modified mode [ 'min/lang/de.js', 438, 420 ]
+silly extracting entry min/lang/sv.js
+silly modified mode [ 'min/lang/sv.js', 438, 420 ]
+silly extracting entry min/lang/da.js
+silly modified mode [ 'min/lang/da.js', 438, 420 ]
+silly extracting entry min/lang/tr.js
+silly modified mode [ 'min/lang/tr.js', 438, 420 ]
+silly extracting entry min/lang/cv.js
+silly modified mode [ 'min/lang/cv.js', 438, 420 ]
+silly extracting entry min/lang/zh-cn.js
+silly modified mode [ 'min/lang/zh-cn.js', 438, 420 ]
+silly extracting entry min/lang/ca.js
+silly modified mode [ 'min/lang/ca.js', 438, 420 ]
+silly extracting entry min/lang/zh-tw.js
+silly modified mode [ 'min/lang/zh-tw.js', 438, 420 ]
+silly extracting entry min/lang/it.js
+silly modified mode [ 'min/lang/it.js', 438, 420 ]
+silly extracting entry lang/bg.js
+silly modified mode [ 'lang/bg.js', 438, 420 ]
+silly extracting entry lang/fr.js
+silly modified mode [ 'lang/fr.js', 438, 420 ]
+silly extracting entry lang/gl.js
+silly modified mode [ 'lang/gl.js', 438, 420 ]
+silly extracting entry lang/hu.js
+silly modified mode [ 'lang/hu.js', 438, 420 ]
+silly extracting entry lang/is.js
+silly modified mode [ 'lang/is.js', 438, 420 ]
+silly extracting entry lang/fr-ca.js
+silly modified mode [ 'lang/fr-ca.js', 438, 420 ]
+silly extracting entry lang/ja.js
+silly modified mode [ 'lang/ja.js', 438, 420 ]
+silly extracting entry lang/jp.js
+silly modified mode [ 'lang/jp.js', 438, 420 ]
+silly extracting entry lang/ko.js
+silly modified mode [ 'lang/ko.js', 438, 420 ]
+silly extracting entry lang/kr.js
+silly modified mode [ 'lang/kr.js', 438, 420 ]
+silly extracting entry lang/nb.js
+silly modified mode [ 'lang/nb.js', 438, 420 ]
+silly extracting entry lang/fi.js
+silly modified mode [ 'lang/fi.js', 438, 420 ]
+silly extracting entry lang/nl.js
+silly modified mode [ 'lang/nl.js', 438, 420 ]
+silly extracting entry lang/eu.js
+silly modified mode [ 'lang/eu.js', 438, 420 ]
+silly extracting entry lang/pl.js
+silly modified mode [ 'lang/pl.js', 438, 420 ]
+silly extracting entry lang/es.js
+silly modified mode [ 'lang/es.js', 438, 420 ]
+silly extracting entry lang/pt-br.js
+silly modified mode [ 'lang/pt-br.js', 438, 420 ]
+silly extracting entry lang/en-gb.js
+silly modified mode [ 'lang/en-gb.js', 438, 420 ]
+silly extracting entry lang/pt.js
+silly modified mode [ 'lang/pt.js', 438, 420 ]
+silly extracting entry lang/en-ca.js
+silly modified mode [ 'lang/en-ca.js', 438, 420 ]
+silly extracting entry lang/ru.js
+silly modified mode [ 'lang/ru.js', 438, 420 ]
+silly extracting entry lang/de.js
+silly modified mode [ 'lang/de.js', 438, 420 ]
+silly extracting entry lang/sv.js
+silly modified mode [ 'lang/sv.js', 438, 420 ]
+silly extracting entry lang/da.js
+silly modified mode [ 'lang/da.js', 438, 420 ]
+silly extracting entry lang/tr.js
+silly modified mode [ 'lang/tr.js', 438, 420 ]
+silly extracting entry lang/cv.js
+silly modified mode [ 'lang/cv.js', 438, 420 ]
+silly extracting entry lang/zh-cn.js
+silly modified mode [ 'lang/zh-cn.js', 438, 420 ]
+silly extracting entry lang/ca.js
+silly modified mode [ 'lang/ca.js', 438, 420 ]
+silly extracting entry lang/zh-tw.js
+silly modified mode [ 'lang/zh-tw.js', 438, 420 ]
+silly extracting entry lang/it.js
+silly modified mode [ 'lang/it.js', 438, 420 ]
+silly extracting entry .travis.yml
+silly modified mode [ '.travis.yml', 438, 420 ]
+silly extracting entry readme.md
+silly modified mode [ 'readme.md', 438, 420 ]
+silly extracting entry test/filesize-diff.js
+silly modified mode [ 'test/filesize-diff.js', 438, 420 ]
+silly extracting entry test/filesize-history.js
+silly modified mode [ 'test/filesize-history.js', 438, 420 ]
+silly extracting entry test/zone.js
+silly modified mode [ 'test/zone.js', 438, 420 ]
+silly extracting entry test/lang/bg.js
+silly modified mode [ 'test/lang/bg.js', 438, 420 ]
+silly extracting entry test/lang/fr.js
+silly modified mode [ 'test/lang/fr.js', 438, 420 ]
+silly extracting entry test/lang/gl.js
+silly modified mode [ 'test/lang/gl.js', 438, 420 ]
+silly extracting entry test/lang/hu.js
+silly modified mode [ 'test/lang/hu.js', 438, 420 ]
+silly extracting entry test/lang/fr-ca.js
+silly modified mode [ 'test/lang/fr-ca.js', 438, 420 ]
+silly extracting entry test/lang/it.js
+silly modified mode [ 'test/lang/it.js', 438, 420 ]
+silly extracting entry test/lang/ja.js
+silly modified mode [ 'test/lang/ja.js', 438, 420 ]
+silly extracting entry test/lang/jp.js
+silly modified mode [ 'test/lang/jp.js', 438, 420 ]
+silly extracting entry test/lang/ko.js
+silly modified mode [ 'test/lang/ko.js', 438, 420 ]
+silly extracting entry test/lang/kr.js
+silly modified mode [ 'test/lang/kr.js', 438, 420 ]
+silly extracting entry test/lang/fi.js
+silly modified mode [ 'test/lang/fi.js', 438, 420 ]
+silly extracting entry test/lang/nb.js
+silly modified mode [ 'test/lang/nb.js', 438, 420 ]
+silly extracting entry test/lang/eu.js
+silly modified mode [ 'test/lang/eu.js', 438, 420 ]
+silly extracting entry test/lang/nl.js
+silly modified mode [ 'test/lang/nl.js', 438, 420 ]
+silly extracting entry test/lang/es.js
+silly modified mode [ 'test/lang/es.js', 438, 420 ]
+silly extracting entry test/lang/pl.js
+silly modified mode [ 'test/lang/pl.js', 438, 420 ]
+silly extracting entry test/lang/en.js
+silly modified mode [ 'test/lang/en.js', 438, 420 ]
+silly extracting entry test/lang/pt-br.js
+silly modified mode [ 'test/lang/pt-br.js', 438, 420 ]
+silly extracting entry test/lang/en-gb.js
+silly modified mode [ 'test/lang/en-gb.js', 438, 420 ]
+silly extracting entry test/lang/pt.js
+silly modified mode [ 'test/lang/pt.js', 438, 420 ]
+silly extracting entry test/lang/en-ca.js
+silly modified mode [ 'test/lang/en-ca.js', 438, 420 ]
+silly extracting entry test/lang/ru.js
+silly modified mode [ 'test/lang/ru.js', 438, 420 ]
+silly extracting entry test/lang/de.js
+silly modified mode [ 'test/lang/de.js', 438, 420 ]
+silly extracting entry test/lang/sv.js
+silly modified mode [ 'test/lang/sv.js', 438, 420 ]
+silly extracting entry test/lang/da.js
+silly modified mode [ 'test/lang/da.js', 438, 420 ]
+silly extracting entry test/lang/tr.js
+silly modified mode [ 'test/lang/tr.js', 438, 420 ]
+silly extracting entry test/lang/cv.js
+silly modified mode [ 'test/lang/cv.js', 438, 420 ]
+silly extracting entry test/lang/zh-cn.js
+silly modified mode [ 'test/lang/zh-cn.js', 438, 420 ]
+silly extracting entry test/lang/ca.js
+silly modified mode [ 'test/lang/ca.js', 438, 420 ]
+silly extracting entry test/lang/zh-tw.js
+silly modified mode [ 'test/lang/zh-tw.js', 438, 420 ]
+silly extracting entry test/lang/is.js
+silly modified mode [ 'test/lang/is.js', 438, 420 ]
+silly extracting entry test/moment/add_subtract.js
+silly modified mode [ 'test/moment/add_subtract.js', 438, 420 ]
+silly extracting entry test/moment/duration.js
+silly modified mode [ 'test/moment/duration.js', 438, 420 ]
+silly extracting entry test/moment/format.js
+silly modified mode [ 'test/moment/format.js', 438, 420 ]
+silly extracting entry test/moment/getters_setters.js
+silly modified mode [ 'test/moment/getters_setters.js', 438, 420 ]
+silly extracting entry test/moment/diff.js
+silly modified mode [ 'test/moment/diff.js', 438, 420 ]
+silly extracting entry test/moment/is_moment.js
+silly modified mode [ 'test/moment/is_moment.js', 438, 420 ]
+silly extracting entry test/moment/is_valid.js
+silly modified mode [ 'test/moment/is_valid.js', 438, 420 ]
+silly extracting entry test/moment/lang.js
+silly modified mode [ 'test/moment/lang.js', 438, 420 ]
+silly extracting entry test/moment/leapyear.js
+silly modified mode [ 'test/moment/leapyear.js', 438, 420 ]
+silly extracting entry test/moment/mutable.js
+silly modified mode [ 'test/moment/mutable.js', 438, 420 ]
+silly extracting entry test/moment/days_in_month.js
+silly modified mode [ 'test/moment/days_in_month.js', 438, 420 ]
+silly extracting entry test/moment/sod_eod.js
+silly modified mode [ 'test/moment/sod_eod.js', 438, 420 ]
+silly extracting entry test/moment/create.js
+silly modified mode [ 'test/moment/create.js', 438, 420 ]
+silly extracting entry test/moment/utc.js
+silly modified mode [ 'test/moment/utc.js', 438, 420 ]
+silly extracting entry test/moment/humanize_duration.js
+silly modified mode [ 'test/moment/humanize_duration.js', 438, 420 ]
+http 200 https://registry.npmjs.org/supertest/-/supertest-0.1.2.tgz
+verbose caching C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420368926-0.8518644287250936\package\package.json
+verbose loadDefaults mocha@1.3.2
+verbose from cache C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420368926-0.8518644287250936\package\package.json
+verbose tar.pack [ 'C:\\Users\\Office\\AppData\\Roaming\\npm-cache\\mocha\\1.3.2\\package.tgz',
+verbose tar.pack   'C:\\Users\\Office\\AppData\\Local\\Temp\\npm-1344420362072\\1344420368926-0.8518644287250936\\package' ]
+verbose tarball C:\Users\Office\AppData\Roaming\npm-cache\mocha\1.3.2\package.tgz
+verbose folder C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420368926-0.8518644287250936\package
+verbose unpack C:\Users\Office\AppData\Roaming\npm-cache\mocha\1.3.2\package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly modified mode [ 'package.json', 438, 420 ]
+silly extracting entry .npmignore
+silly modified mode [ '.npmignore', 438, 420 ]
+silly extracting entry LICENSE
+silly modified mode [ 'LICENSE', 438, 420 ]
+silly extracting entry test.js
+silly modified mode [ 'test.js', 438, 420 ]
+silly extracting entry my-reporter.js
+silly modified mode [ 'my-reporter.js', 438, 420 ]
+silly extracting entry index.js
+silly modified mode [ 'index.js', 438, 420 ]
+silly extracting entry mocha.js
+silly modified mode [ 'mocha.js', 438, 420 ]
+silly extracting entry _mocha.js
+silly modified mode [ '_mocha.js', 438, 420 ]
+silly extracting entry .travis.yml
+silly modified mode [ '.travis.yml', 438, 420 ]
+silly extracting entry mocha.css
+silly modified mode [ 'mocha.css', 438, 420 ]
+silly extracting entry lib/utils.js
+silly modified mode [ 'lib/utils.js', 438, 420 ]
+silly extracting entry lib/hook.js
+silly modified mode [ 'lib/hook.js', 438, 420 ]
+silly extracting entry lib/mocha.js
+silly modified mode [ 'lib/mocha.js', 438, 420 ]
+silly extracting entry lib/context.js
+silly modified mode [ 'lib/context.js', 438, 420 ]
+silly extracting entry lib/runnable.js
+silly modified mode [ 'lib/runnable.js', 438, 420 ]
+silly extracting entry lib/runner.js
+silly modified mode [ 'lib/runner.js', 438, 420 ]
+silly extracting entry lib/suite.js
+silly modified mode [ 'lib/suite.js', 438, 420 ]
+silly extracting entry lib/test.js
+silly modified mode [ 'lib/test.js', 438, 420 ]
+silly extracting entry lib/browser/debug.js
+silly modified mode [ 'lib/browser/debug.js', 438, 420 ]
+silly extracting entry lib/browser/diff.js
+silly modified mode [ 'lib/browser/diff.js', 438, 420 ]
+silly extracting entry lib/browser/events.js
+silly modified mode [ 'lib/browser/events.js', 438, 420 ]
+silly extracting entry lib/browser/fs.js
+silly modified mode [ 'lib/browser/fs.js', 438, 420 ]
+silly extracting entry lib/browser/path.js
+silly modified mode [ 'lib/browser/path.js', 438, 420 ]
+silly extracting entry lib/browser/progress.js
+silly modified mode [ 'lib/browser/progress.js', 438, 420 ]
+silly extracting entry lib/browser/tty.js
+silly modified mode [ 'lib/browser/tty.js', 438, 420 ]
+silly extracting entry lib/interfaces/bdd.js
+silly modified mode [ 'lib/interfaces/bdd.js', 438, 420 ]
+silly extracting entry lib/interfaces/exports.js
+silly modified mode [ 'lib/interfaces/exports.js', 438, 420 ]
+silly extracting entry lib/interfaces/index.js
+silly modified mode [ 'lib/interfaces/index.js', 438, 420 ]
+silly extracting entry lib/interfaces/qunit.js
+silly modified mode [ 'lib/interfaces/qunit.js', 438, 420 ]
+silly extracting entry lib/interfaces/tdd.js
+silly modified mode [ 'lib/interfaces/tdd.js', 438, 420 ]
+silly extracting entry lib/reporters/base.js
+silly modified mode [ 'lib/reporters/base.js', 438, 420 ]
+silly extracting entry lib/reporters/json-cov.js
+silly modified mode [ 'lib/reporters/json-cov.js', 438, 420 ]
+silly extracting entry lib/reporters/json-stream.js
+silly modified mode [ 'lib/reporters/json-stream.js', 438, 420 ]
+silly extracting entry lib/reporters/json.js
+silly modified mode [ 'lib/reporters/json.js', 438, 420 ]
+silly extracting entry lib/reporters/index.js
+silly modified mode [ 'lib/reporters/index.js', 438, 420 ]
+silly extracting entry lib/reporters/doc.js
+silly modified mode [ 'lib/reporters/doc.js', 438, 420 ]
+silly extracting entry lib/reporters/markdown.js
+silly modified mode [ 'lib/reporters/markdown.js', 438, 420 ]
+silly extracting entry lib/reporters/min.js
+silly modified mode [ 'lib/reporters/min.js', 438, 420 ]
+silly extracting entry lib/reporters/nyan.js
+silly modified mode [ 'lib/reporters/nyan.js', 438, 420 ]
+silly extracting entry lib/reporters/progress.js
+silly modified mode [ 'lib/reporters/progress.js', 438, 420 ]
+silly extracting entry lib/reporters/html.js
+silly modified mode [ 'lib/reporters/html.js', 438, 420 ]
+silly extracting entry lib/reporters/spec.js
+silly modified mode [ 'lib/reporters/spec.js', 438, 420 ]
+silly extracting entry lib/reporters/html-cov.js
+silly modified mode [ 'lib/reporters/html-cov.js', 438, 420 ]
+silly extracting entry lib/reporters/tap.js
+silly modified mode [ 'lib/reporters/tap.js', 438, 420 ]
+silly extracting entry lib/reporters/dot.js
+silly modified mode [ 'lib/reporters/dot.js', 438, 420 ]
+silly extracting entry lib/reporters/teamcity.js
+silly modified mode [ 'lib/reporters/teamcity.js', 438, 420 ]
+silly extracting entry lib/reporters/landing.js
+silly modified mode [ 'lib/reporters/landing.js', 438, 420 ]
+silly extracting entry lib/reporters/xunit.js
+silly modified mode [ 'lib/reporters/xunit.js', 438, 420 ]
+silly extracting entry lib/reporters/list.js
+silly modified mode [ 'lib/reporters/list.js', 438, 420 ]
+silly extracting entry lib/reporters/templates/coverage.jade
+silly modified mode [ 'lib/reporters/templates/coverage.jade', 438, 420 ]
+silly extracting entry lib/reporters/templates/menu.jade
+silly modified mode [ 'lib/reporters/templates/menu.jade', 438, 420 ]
+silly extracting entry lib/reporters/templates/script.html
+silly modified mode [ 'lib/reporters/templates/script.html', 438, 420 ]
+silly extracting entry lib/reporters/templates/style.html
+silly modified mode [ 'lib/reporters/templates/style.html', 438, 420 ]
+silly extracting entry images/error.png
+silly modified mode [ 'images/error.png', 438, 420 ]
+silly extracting entry images/ok.png
+silly modified mode [ 'images/ok.png', 438, 420 ]
+silly extracting entry History.md
+silly modified mode [ 'History.md', 438, 420 ]
+silly extracting entry Readme.md
+silly modified mode [ 'Readme.md', 438, 420 ]
+silly extracting entry bin/mocha
+silly modified mode [ 'bin/mocha', 438, 420 ]
+silly extracting entry bin/_mocha
+silly modified mode [ 'bin/_mocha', 438, 420 ]
+silly extracting entry Makefile
+silly modified mode [ 'Makefile', 438, 420 ]
+silly updated sha bytes 3872
+info shasum 868a854457d9900f30b0179c621da84deb3ce693
+info shasum C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420373626-0.19760404783301055\tmp.tgz
+verbose unpack C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420373626-0.19760404783301055\tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry example.js
+silly extracting entry index.js
+silly extracting entry History.md
+silly extracting entry lib/test.js
+silly extracting entry Makefile
+silly extracting entry Readme.md
+silly extracting entry test/supertest.js
+verbose caching C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420373626-0.19760404783301055\package\package.json
+verbose loadDefaults supertest@0.1.2
+verbose from cache C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420373626-0.19760404783301055\package\package.json
+verbose tar.pack [ 'C:\\Users\\Office\\AppData\\Roaming\\npm-cache\\supertest\\0.1.2\\package.tgz',
+verbose tar.pack   'C:\\Users\\Office\\AppData\\Local\\Temp\\npm-1344420362072\\1344420373626-0.19760404783301055\\package' ]
+verbose tarball C:\Users\Office\AppData\Roaming\npm-cache\supertest\0.1.2\package.tgz
+verbose folder C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420373626-0.19760404783301055\package
+verbose unpack C:\Users\Office\AppData\Roaming\npm-cache\supertest\0.1.2\package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly modified mode [ 'package.json', 438, 420 ]
+silly extracting entry .npmignore
+silly modified mode [ '.npmignore', 438, 420 ]
+silly extracting entry example.js
+silly modified mode [ 'example.js', 438, 420 ]
+silly extracting entry index.js
+silly modified mode [ 'index.js', 438, 420 ]
+silly extracting entry History.md
+silly modified mode [ 'History.md', 438, 420 ]
+silly extracting entry lib/test.js
+silly modified mode [ 'lib/test.js', 438, 420 ]
+silly extracting entry Makefile
+silly modified mode [ 'Makefile', 438, 420 ]
+silly extracting entry Readme.md
+silly modified mode [ 'Readme.md', 438, 420 ]
+silly extracting entry test/supertest.js
+silly modified mode [ 'test/supertest.js', 438, 420 ]
+verbose caching C:\Users\Office\AppData\Roaming\npm-cache\supertest\0.1.2\package\package.json
+verbose loadDefaults supertest@0.1.2
+silly updated sha bytes 3815
+info shasum 6e9055148bc26410013a594493a771a4d745fbda
+info shasum C:\Users\Office\AppData\Roaming\npm-cache\supertest\0.1.2\package.tgz
+verbose from cache C:\Users\Office\AppData\Roaming\npm-cache\supertest\0.1.2\package\package.json
+verbose chmod C:\Users\Office\AppData\Roaming\npm-cache\supertest\0.1.2\package.tgz 644
+silly skipping chown for windows C:\Users\Office\AppData\Roaming\npm-cache\supertest\0.1.2\package.tgz
+verbose caching C:\Users\Office\AppData\Roaming\npm-cache\moment\1.7.0\package\package.json
+verbose loadDefaults moment@1.7.0
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 16578
+info shasum 7dc2644452ad7f9e51a62a910c6f8014ef2565cd
+info shasum C:\Users\Office\AppData\Roaming\npm-cache\moment\1.7.0\package.tgz
+verbose from cache C:\Users\Office\AppData\Roaming\npm-cache\moment\1.7.0\package\package.json
+verbose chmod C:\Users\Office\AppData\Roaming\npm-cache\moment\1.7.0\package.tgz 644
+silly skipping chown for windows C:\Users\Office\AppData\Roaming\npm-cache\moment\1.7.0\package.tgz
+verbose caching C:\Users\Office\AppData\Roaming\npm-cache\mocha\1.3.2\package\package.json
+verbose loadDefaults mocha@1.3.2
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 114
+info shasum 4abd687197e559990099434833ef6b01b944b034
+info shasum C:\Users\Office\AppData\Roaming\npm-cache\mocha\1.3.2\package.tgz
+verbose from cache C:\Users\Office\AppData\Roaming\npm-cache\mocha\1.3.2\package\package.json
+verbose chmod C:\Users\Office\AppData\Roaming\npm-cache\mocha\1.3.2\package.tgz 644
+silly skipping chown for windows C:\Users\Office\AppData\Roaming\npm-cache\mocha\1.3.2\package.tgz
+http 200 https://registry.npmjs.org/airbrake/-/airbrake-0.2.9.tgz
+silly updated sha bytes 15659
+info shasum 4a2782c3852cf6b792b688b24742a09ee5e2dfd9
+info shasum C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420372901-0.4906396782025695\tmp.tgz
+verbose unpack C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420372901-0.4906396782025695\tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry LICENSE
+silly extracting entry email.js
+silly extracting entry Readme.md
+silly extracting entry smtp/response.js
+silly extracting entry smtp/smtp.js
+silly extracting entry smtp/client.js
+silly extracting entry smtp/error.js
+silly extracting entry smtp/address.js
+silly extracting entry smtp/tls.js
+silly extracting entry smtp/message.js
+verbose caching C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420372901-0.4906396782025695\package\package.json
+verbose loadDefaults emailjs@0.3.1
+verbose from cache C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420372901-0.4906396782025695\package\package.json
+verbose tar.pack [ 'C:\\Users\\Office\\AppData\\Roaming\\npm-cache\\emailjs\\0.3.1\\package.tgz',
+verbose tar.pack   'C:\\Users\\Office\\AppData\\Local\\Temp\\npm-1344420362072\\1344420372901-0.4906396782025695\\package' ]
+verbose tarball C:\Users\Office\AppData\Roaming\npm-cache\emailjs\0.3.1\package.tgz
+verbose folder C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420372901-0.4906396782025695\package
+verbose unpack C:\Users\Office\AppData\Roaming\npm-cache\emailjs\0.3.1\package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly modified mode [ 'package.json', 438, 420 ]
+silly extracting entry LICENSE
+silly modified mode [ 'LICENSE', 438, 420 ]
+silly extracting entry email.js
+silly modified mode [ 'email.js', 438, 420 ]
+silly extracting entry Readme.md
+silly modified mode [ 'Readme.md', 438, 420 ]
+silly extracting entry smtp/address.js
+silly modified mode [ 'smtp/address.js', 438, 420 ]
+silly extracting entry smtp/client.js
+silly modified mode [ 'smtp/client.js', 438, 420 ]
+silly extracting entry smtp/error.js
+silly modified mode [ 'smtp/error.js', 438, 420 ]
+silly extracting entry smtp/message.js
+silly modified mode [ 'smtp/message.js', 438, 420 ]
+silly extracting entry smtp/response.js
+silly modified mode [ 'smtp/response.js', 438, 420 ]
+silly extracting entry smtp/smtp.js
+silly modified mode [ 'smtp/smtp.js', 438, 420 ]
+silly extracting entry smtp/tls.js
+silly modified mode [ 'smtp/tls.js', 438, 420 ]
+verbose caching C:\Users\Office\AppData\Roaming\npm-cache\emailjs\0.3.1\package\package.json
+verbose loadDefaults emailjs@0.3.1
+silly updated sha bytes 15520
+info shasum 6cff3688a4879822ba93fdbe736ae9aa11b3f0a1
+info shasum C:\Users\Office\AppData\Roaming\npm-cache\emailjs\0.3.1\package.tgz
+verbose from cache C:\Users\Office\AppData\Roaming\npm-cache\emailjs\0.3.1\package\package.json
+verbose chmod C:\Users\Office\AppData\Roaming\npm-cache\emailjs\0.3.1\package.tgz 644
+silly skipping chown for windows C:\Users\Office\AppData\Roaming\npm-cache\emailjs\0.3.1\package.tgz
+http 200 https://registry.npmjs.org/stylus/-/stylus-0.28.2.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 24247
+info shasum aaf05d3e7669889767183053eecacd50007f8bc3
+info shasum C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420375186-0.5571659514680505\tmp.tgz
+verbose unpack C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420375186-0.5571659514680505\tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry index.js
+silly extracting entry lib/airbrake.js
+silly extracting entry License
+silly extracting entry Makefile
+silly extracting entry Readme.md
+silly extracting entry screenshot.png
+silly extracting entry test/common.js
+silly extracting entry test/run.js
+silly extracting entry test/fast/test-handle-exceptions.js
+silly extracting entry test/fast/test-host.js
+silly extracting entry test/fast/test-request-vars.js
+silly extracting entry test/fast/test-valid-xml.js
+silly extracting entry test/slow/test-environment.js
+silly extracting entry test/slow/test-error-event.js
+silly extracting entry test/slow/test-handle-exceptions.js
+silly extracting entry test/slow/test-invalid-api-key.js
+silly extracting entry test/slow/test-notify.js
+silly extracting entry test/slow/test-track-deployment.js
+verbose caching C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420375186-0.5571659514680505\package\package.json
+verbose loadDefaults airbrake@0.2.9
+verbose from cache C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420375186-0.5571659514680505\package\package.json
+verbose tar.pack [ 'C:\\Users\\Office\\AppData\\Roaming\\npm-cache\\airbrake\\0.2.9\\package.tgz',
+verbose tar.pack   'C:\\Users\\Office\\AppData\\Local\\Temp\\npm-1344420362072\\1344420375186-0.5571659514680505\\package' ]
+verbose tarball C:\Users\Office\AppData\Roaming\npm-cache\airbrake\0.2.9\package.tgz
+verbose folder C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420375186-0.5571659514680505\package
+verbose unpack C:\Users\Office\AppData\Roaming\npm-cache\airbrake\0.2.9\package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly modified mode [ 'package.json', 438, 420 ]
+silly extracting entry .npmignore
+silly modified mode [ '.npmignore', 438, 420 ]
+silly extracting entry index.js
+silly modified mode [ 'index.js', 438, 420 ]
+silly extracting entry lib/airbrake.js
+silly modified mode [ 'lib/airbrake.js', 438, 420 ]
+silly extracting entry License
+silly modified mode [ 'License', 438, 420 ]
+silly extracting entry Makefile
+silly modified mode [ 'Makefile', 438, 420 ]
+silly extracting entry Readme.md
+silly modified mode [ 'Readme.md', 438, 420 ]
+silly extracting entry screenshot.png
+silly modified mode [ 'screenshot.png', 438, 420 ]
+silly extracting entry test/common.js
+silly modified mode [ 'test/common.js', 438, 420 ]
+silly extracting entry test/run.js
+silly modified mode [ 'test/run.js', 438, 420 ]
+silly extracting entry test/fast/test-handle-exceptions.js
+silly modified mode [ 'test/fast/test-handle-exceptions.js', 438, 420 ]
+silly extracting entry test/fast/test-host.js
+silly modified mode [ 'test/fast/test-host.js', 438, 420 ]
+silly extracting entry test/fast/test-request-vars.js
+silly modified mode [ 'test/fast/test-request-vars.js', 438, 420 ]
+silly extracting entry test/fast/test-valid-xml.js
+silly modified mode [ 'test/fast/test-valid-xml.js', 438, 420 ]
+silly extracting entry test/slow/test-environment.js
+silly modified mode [ 'test/slow/test-environment.js', 438, 420 ]
+silly extracting entry test/slow/test-error-event.js
+silly modified mode [ 'test/slow/test-error-event.js', 438, 420 ]
+silly extracting entry test/slow/test-handle-exceptions.js
+silly modified mode [ 'test/slow/test-handle-exceptions.js', 438, 420 ]
+silly extracting entry test/slow/test-invalid-api-key.js
+silly modified mode [ 'test/slow/test-invalid-api-key.js', 438, 420 ]
+silly extracting entry test/slow/test-notify.js
+silly modified mode [ 'test/slow/test-notify.js', 438, 420 ]
+silly extracting entry test/slow/test-track-deployment.js
+silly modified mode [ 'test/slow/test-track-deployment.js', 438, 420 ]
+verbose caching C:\Users\Office\AppData\Roaming\npm-cache\airbrake\0.2.9\package\package.json
+verbose loadDefaults airbrake@0.2.9
+silly updated sha bytes 40960
+silly updated sha bytes 24177
+info shasum ab5e980c5e1aecd3316299cad9f07f7fcef0616b
+info shasum C:\Users\Office\AppData\Roaming\npm-cache\airbrake\0.2.9\package.tgz
+verbose from cache C:\Users\Office\AppData\Roaming\npm-cache\airbrake\0.2.9\package\package.json
+verbose chmod C:\Users\Office\AppData\Roaming\npm-cache\airbrake\0.2.9\package.tgz 644
+silly skipping chown for windows C:\Users\Office\AppData\Roaming\npm-cache\airbrake\0.2.9\package.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 13207
+info shasum d4c67c69e1b21e139143cdecf27f205b3e69e587
+info shasum C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420376966-0.25046950415708125\tmp.tgz
+verbose unpack C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420376966-0.25046950415708125\tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry LICENSE
+silly extracting entry bm.js
+silly extracting entry index.js
+silly extracting entry bin/stylus
+silly extracting entry lib/colors.js
+silly extracting entry lib/errors.js
+silly extracting entry lib/utils.js
+silly extracting entry lib/lexer.js
+silly extracting entry lib/middleware.js
+silly extracting entry lib/units.js
+silly extracting entry lib/token.js
+silly extracting entry lib/renderer.js
+silly extracting entry lib/stylus.js
+silly extracting entry lib/parser.js
+silly extracting entry lib/stack/frame.js
+silly extracting entry lib/stack/index.js
+silly extracting entry lib/stack/scope.js
+silly extracting entry lib/convert/css.js
+silly extracting entry lib/nodes/arguments.js
+silly extracting entry lib/nodes/ident.js
+silly extracting entry lib/nodes/if.js
+silly extracting entry lib/nodes/import.js
+silly extracting entry lib/nodes/hsla.js
+silly extracting entry lib/nodes/jsliteral.js
+silly extracting entry lib/nodes/keyframes.js
+silly extracting entry lib/nodes/literal.js
+silly extracting entry lib/nodes/media.js
+silly extracting entry lib/nodes/node.js
+silly extracting entry lib/nodes/group.js
+silly extracting entry lib/nodes/null.js
+silly extracting entry lib/nodes/function.js
+silly extracting entry lib/nodes/page.js
+silly extracting entry lib/nodes/fontface.js
+silly extracting entry lib/nodes/params.js
+silly extracting entry lib/nodes/extend.js
+silly extracting entry lib/nodes/property.js
+silly extracting entry lib/nodes/expression.js
+silly extracting entry lib/nodes/return.js
+silly extracting entry lib/nodes/each.js
+silly extracting entry lib/nodes/rgba.js
+silly extracting entry lib/nodes/comment.js
+silly extracting entry lib/nodes/root.js
+silly extracting entry lib/nodes/charset.js
+silly extracting entry lib/nodes/selector.js
+silly extracting entry lib/nodes/call.js
+http 200 https://registry.npmjs.org/jade/-/jade-0.27.2.tgz
+silly extracting entry lib/nodes/string.js
+silly extracting entry lib/nodes/boolean.js
+silly extracting entry lib/nodes/ternary.js
+silly extracting entry lib/nodes/block.js
+silly extracting entry lib/nodes/unaryop.js
+silly extracting entry lib/nodes/binop.js
+silly extracting entry lib/nodes/unit.js
+silly extracting entry lib/nodes/index.js
+silly extracting entry lib/functions/image.js
+silly extracting entry lib/functions/index.js
+silly extracting entry lib/functions/url.js
+silly extracting entry lib/functions/index.styl
+silly extracting entry lib/visitor/compiler.js
+silly extracting entry lib/visitor/evaluator.js
+silly extracting entry lib/visitor/index.js
+silly extracting entry lib/visitor/normalizer.js
+silly extracting entry Readme.md
+silly extracting entry testing/index.js
+silly extracting entry testing/small.styl
+silly extracting entry testing/test.styl
+http 200 https://registry.npmjs.org/express
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"7K8GAW7SJ38QHNBEF1XFDVFFB"',
+silly get cb     date: 'Wed, 08 Aug 2012 10:06:21 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '185305' } ]
+silly name, range, hasData 2 [ 'express', '', true ]
+silly versions [ 'express',
+silly versions   [ '0.14.0',
+silly versions     '0.14.1',
+silly versions     '1.0.0beta',
+silly versions     '1.0.0beta2',
+silly versions     '1.0.0rc',
+silly versions     '1.0.0rc2',
+silly versions     '1.0.0rc3',
+silly versions     '1.0.0rc4',
+silly versions     '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.0.2',
+silly versions     '1.0.3',
+silly versions     '1.0.4',
+silly versions     '1.0.5',
+silly versions     '1.0.6',
+silly versions     '1.0.7',
+silly versions     '2.5.0',
+silly versions     '2.5.1',
+silly versions     '2.5.2',
+silly versions     '2.5.3',
+silly versions     '2.5.4',
+silly versions     '2.5.5',
+silly versions     '2.5.6',
+silly versions     '2.5.7',
+silly versions     '2.5.8',
+silly versions     '2.5.9',
+silly versions     '3.0.0alpha1',
+silly versions     '3.0.0alpha2',
+silly versions     '3.0.0alpha3',
+silly versions     '3.0.0alpha4',
+silly versions     '3.0.0alpha5',
+silly versions     '3.0.0beta1',
+silly versions     '3.0.0beta2',
+silly versions     '3.0.0beta3',
+silly versions     '2.5.10',
+silly versions     '3.0.0beta4',
+silly versions     '2.5.11',
+silly versions     '3.0.0beta6',
+silly versions     '3.0.0beta7',
+silly versions     '3.0.0rc1',
+silly versions     '3.0.0rc2' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'ffa79ccee41abc97f2c57576cc433339200fcd33',
+verbose bin dist     tarball: 'http://registry.npmjs.org/express/-/express-3.0.0rc2.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-3.0.0rc2.tgz',
+verbose addRemoteTarball   'ffa79ccee41abc97f2c57576cc433339200fcd33' ]
+verbose fetch to C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420394534-0.975907796761021\tmp.tgz
+http GET https://registry.npmjs.org/express/-/express-3.0.0rc2.tgz
+verbose caching C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420376966-0.25046950415708125\package\package.json
+verbose loadDefaults stylus@0.28.2
+verbose from cache C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420376966-0.25046950415708125\package\package.json
+verbose tar.pack [ 'C:\\Users\\Office\\AppData\\Roaming\\npm-cache\\stylus\\0.28.2\\package.tgz',
+verbose tar.pack   'C:\\Users\\Office\\AppData\\Local\\Temp\\npm-1344420362072\\1344420376966-0.25046950415708125\\package' ]
+verbose tarball C:\Users\Office\AppData\Roaming\npm-cache\stylus\0.28.2\package.tgz
+verbose folder C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420376966-0.25046950415708125\package
+http 200 https://registry.npmjs.org/socket.io/-/socket.io-0.9.9.tgz
+verbose unpack C:\Users\Office\AppData\Roaming\npm-cache\stylus\0.28.2\package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly modified mode [ 'package.json', 438, 420 ]
+silly extracting entry LICENSE
+silly modified mode [ 'LICENSE', 438, 420 ]
+silly extracting entry bm.js
+silly modified mode [ 'bm.js', 438, 420 ]
+silly extracting entry index.js
+silly modified mode [ 'index.js', 438, 420 ]
+silly extracting entry bin/stylus
+silly modified mode [ 'bin/stylus', 438, 420 ]
+silly extracting entry lib/colors.js
+silly modified mode [ 'lib/colors.js', 438, 420 ]
+silly extracting entry lib/errors.js
+silly modified mode [ 'lib/errors.js', 438, 420 ]
+silly extracting entry lib/utils.js
+silly modified mode [ 'lib/utils.js', 438, 420 ]
+silly extracting entry lib/lexer.js
+silly modified mode [ 'lib/lexer.js', 438, 420 ]
+silly extracting entry lib/middleware.js
+silly modified mode [ 'lib/middleware.js', 438, 420 ]
+silly extracting entry lib/units.js
+silly modified mode [ 'lib/units.js', 438, 420 ]
+silly extracting entry lib/token.js
+silly modified mode [ 'lib/token.js', 438, 420 ]
+silly extracting entry lib/renderer.js
+silly modified mode [ 'lib/renderer.js', 438, 420 ]
+silly extracting entry lib/stylus.js
+silly modified mode [ 'lib/stylus.js', 438, 420 ]
+silly extracting entry lib/parser.js
+silly modified mode [ 'lib/parser.js', 438, 420 ]
+silly extracting entry lib/stack/frame.js
+silly modified mode [ 'lib/stack/frame.js', 438, 420 ]
+silly extracting entry lib/stack/index.js
+silly modified mode [ 'lib/stack/index.js', 438, 420 ]
+silly extracting entry lib/stack/scope.js
+silly modified mode [ 'lib/stack/scope.js', 438, 420 ]
+silly extracting entry lib/convert/css.js
+silly modified mode [ 'lib/convert/css.js', 438, 420 ]
+silly extracting entry lib/nodes/arguments.js
+silly modified mode [ 'lib/nodes/arguments.js', 438, 420 ]
+silly extracting entry lib/nodes/ident.js
+silly modified mode [ 'lib/nodes/ident.js', 438, 420 ]
+silly extracting entry lib/nodes/if.js
+silly modified mode [ 'lib/nodes/if.js', 438, 420 ]
+silly extracting entry lib/nodes/import.js
+silly modified mode [ 'lib/nodes/import.js', 438, 420 ]
+silly extracting entry lib/nodes/hsla.js
+silly modified mode [ 'lib/nodes/hsla.js', 438, 420 ]
+silly extracting entry lib/nodes/jsliteral.js
+silly modified mode [ 'lib/nodes/jsliteral.js', 438, 420 ]
+silly extracting entry lib/nodes/keyframes.js
+silly modified mode [ 'lib/nodes/keyframes.js', 438, 420 ]
+silly extracting entry lib/nodes/literal.js
+silly modified mode [ 'lib/nodes/literal.js', 438, 420 ]
+silly extracting entry lib/nodes/media.js
+silly modified mode [ 'lib/nodes/media.js', 438, 420 ]
+silly extracting entry lib/nodes/node.js
+silly modified mode [ 'lib/nodes/node.js', 438, 420 ]
+silly extracting entry lib/nodes/group.js
+silly modified mode [ 'lib/nodes/group.js', 438, 420 ]
+silly extracting entry lib/nodes/null.js
+silly modified mode [ 'lib/nodes/null.js', 438, 420 ]
+silly extracting entry lib/nodes/function.js
+silly modified mode [ 'lib/nodes/function.js', 438, 420 ]
+silly extracting entry lib/nodes/page.js
+silly modified mode [ 'lib/nodes/page.js', 438, 420 ]
+silly extracting entry lib/nodes/fontface.js
+silly modified mode [ 'lib/nodes/fontface.js', 438, 420 ]
+silly extracting entry lib/nodes/params.js
+silly modified mode [ 'lib/nodes/params.js', 438, 420 ]
+silly extracting entry lib/nodes/extend.js
+silly modified mode [ 'lib/nodes/extend.js', 438, 420 ]
+silly extracting entry lib/nodes/property.js
+silly modified mode [ 'lib/nodes/property.js', 438, 420 ]
+http 200 https://registry.npmjs.org/connect/-/connect-2.4.3.tgz
+silly extracting entry lib/nodes/expression.js
+silly modified mode [ 'lib/nodes/expression.js', 438, 420 ]
+silly extracting entry lib/nodes/return.js
+silly modified mode [ 'lib/nodes/return.js', 438, 420 ]
+silly extracting entry lib/nodes/each.js
+silly modified mode [ 'lib/nodes/each.js', 438, 420 ]
+silly extracting entry lib/nodes/rgba.js
+silly modified mode [ 'lib/nodes/rgba.js', 438, 420 ]
+silly extracting entry lib/nodes/comment.js
+silly modified mode [ 'lib/nodes/comment.js', 438, 420 ]
+silly extracting entry lib/nodes/root.js
+silly modified mode [ 'lib/nodes/root.js', 438, 420 ]
+silly extracting entry lib/nodes/charset.js
+silly modified mode [ 'lib/nodes/charset.js', 438, 420 ]
+silly extracting entry lib/nodes/selector.js
+silly modified mode [ 'lib/nodes/selector.js', 438, 420 ]
+silly extracting entry lib/nodes/call.js
+silly modified mode [ 'lib/nodes/call.js', 438, 420 ]
+silly extracting entry lib/nodes/string.js
+silly modified mode [ 'lib/nodes/string.js', 438, 420 ]
+silly extracting entry lib/nodes/boolean.js
+silly modified mode [ 'lib/nodes/boolean.js', 438, 420 ]
+silly extracting entry lib/nodes/ternary.js
+silly modified mode [ 'lib/nodes/ternary.js', 438, 420 ]
+silly extracting entry lib/nodes/block.js
+silly modified mode [ 'lib/nodes/block.js', 438, 420 ]
+silly extracting entry lib/nodes/unaryop.js
+silly modified mode [ 'lib/nodes/unaryop.js', 438, 420 ]
+silly extracting entry lib/nodes/binop.js
+silly modified mode [ 'lib/nodes/binop.js', 438, 420 ]
+silly extracting entry lib/nodes/unit.js
+silly modified mode [ 'lib/nodes/unit.js', 438, 420 ]
+silly extracting entry lib/nodes/index.js
+silly modified mode [ 'lib/nodes/index.js', 438, 420 ]
+silly extracting entry lib/functions/image.js
+silly modified mode [ 'lib/functions/image.js', 438, 420 ]
+silly extracting entry lib/functions/index.js
+silly modified mode [ 'lib/functions/index.js', 438, 420 ]
+silly extracting entry lib/functions/url.js
+silly modified mode [ 'lib/functions/url.js', 438, 420 ]
+silly extracting entry lib/functions/index.styl
+silly modified mode [ 'lib/functions/index.styl', 438, 420 ]
+silly extracting entry lib/visitor/compiler.js
+silly modified mode [ 'lib/visitor/compiler.js', 438, 420 ]
+silly extracting entry lib/visitor/evaluator.js
+silly modified mode [ 'lib/visitor/evaluator.js', 438, 420 ]
+silly extracting entry lib/visitor/index.js
+silly modified mode [ 'lib/visitor/index.js', 438, 420 ]
+silly extracting entry lib/visitor/normalizer.js
+silly modified mode [ 'lib/visitor/normalizer.js', 438, 420 ]
+silly extracting entry Readme.md
+silly modified mode [ 'Readme.md', 438, 420 ]
+silly extracting entry testing/index.js
+silly modified mode [ 'testing/index.js', 438, 420 ]
+silly extracting entry testing/small.styl
+silly modified mode [ 'testing/small.styl', 438, 420 ]
+silly extracting entry testing/test.styl
+silly modified mode [ 'testing/test.styl', 438, 420 ]
+verbose caching C:\Users\Office\AppData\Roaming\npm-cache\stylus\0.28.2\package\package.json
+verbose loadDefaults stylus@0.28.2
+silly updated sha bytes 40960
+silly updated sha bytes 13011
+info shasum 86c226e6000765e97d93028bdbfe0fe6cae61ff2
+info shasum C:\Users\Office\AppData\Roaming\npm-cache\stylus\0.28.2\package.tgz
+verbose from cache C:\Users\Office\AppData\Roaming\npm-cache\stylus\0.28.2\package\package.json
+verbose chmod C:\Users\Office\AppData\Roaming\npm-cache\stylus\0.28.2\package.tgz 644
+silly skipping chown for windows C:\Users\Office\AppData\Roaming\npm-cache\stylus\0.28.2\package.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 11505
+info shasum a18b7645246165d4e2c284b7773ec8936ccee557
+info shasum C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420378883-0.6835989896208048\tmp.tgz
+verbose unpack C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420378883-0.6835989896208048\tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry LICENSE
+silly extracting entry index.js
+silly extracting entry jade.js
+silly extracting entry jade.min.js
+silly extracting entry runtime.js
+silly extracting entry runtime.min.js
+silly extracting entry testing/index.js
+silly extracting entry testing/user.js
+silly extracting entry testing/head.jade
+silly extracting entry testing/index.jade
+silly extracting entry testing/layout.jade
+silly extracting entry testing/user.jade
+silly extracting entry bin/jade
+silly extracting entry jade.md
+silly extracting entry test.jade
+silly extracting entry lib/compiler.js
+silly extracting entry lib/filters.js
+silly extracting entry lib/inline-tags.js
+silly extracting entry lib/jade.js
+silly extracting entry lib/doctypes.js
+silly extracting entry lib/self-closing.js
+silly extracting entry lib/parser.js
+silly extracting entry lib/runtime.js
+silly extracting entry lib/utils.js
+silly extracting entry lib/lexer.js
+silly extracting entry lib/nodes/attrs.js
+silly extracting entry lib/nodes/code.js
+silly extracting entry lib/nodes/comment.js
+silly extracting entry lib/nodes/doctype.js
+silly extracting entry lib/nodes/case.js
+silly extracting entry lib/nodes/filter.js
+silly extracting entry lib/nodes/index.js
+silly extracting entry lib/nodes/literal.js
+silly extracting entry lib/nodes/mixin.js
+silly extracting entry lib/nodes/node.js
+silly extracting entry lib/nodes/block.js
+silly extracting entry lib/nodes/tag.js
+silly extracting entry lib/nodes/block-comment.js
+silly extracting entry lib/nodes/text.js
+silly extracting entry lib/nodes/each.js
+verbose caching C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420378883-0.6835989896208048\package\package.json
+verbose loadDefaults jade@0.27.2
+verbose from cache C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420378883-0.6835989896208048\package\package.json
+verbose tar.pack [ 'C:\\Users\\Office\\AppData\\Roaming\\npm-cache\\jade\\0.27.2\\package.tgz',
+verbose tar.pack   'C:\\Users\\Office\\AppData\\Local\\Temp\\npm-1344420362072\\1344420378883-0.6835989896208048\\package' ]
+verbose tarball C:\Users\Office\AppData\Roaming\npm-cache\jade\0.27.2\package.tgz
+verbose folder C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420378883-0.6835989896208048\package
+verbose unpack C:\Users\Office\AppData\Roaming\npm-cache\jade\0.27.2\package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly modified mode [ 'package.json', 438, 420 ]
+silly extracting entry .npmignore
+silly modified mode [ '.npmignore', 438, 420 ]
+silly extracting entry LICENSE
+silly modified mode [ 'LICENSE', 438, 420 ]
+silly extracting entry index.js
+silly modified mode [ 'index.js', 438, 420 ]
+silly extracting entry jade.js
+silly modified mode [ 'jade.js', 438, 420 ]
+silly extracting entry jade.min.js
+silly modified mode [ 'jade.min.js', 438, 420 ]
+silly extracting entry runtime.js
+silly modified mode [ 'runtime.js', 438, 420 ]
+silly extracting entry runtime.min.js
+silly modified mode [ 'runtime.min.js', 438, 420 ]
+silly extracting entry testing/index.js
+silly modified mode [ 'testing/index.js', 438, 420 ]
+silly extracting entry testing/user.js
+silly modified mode [ 'testing/user.js', 438, 420 ]
+silly extracting entry testing/head.jade
+silly modified mode [ 'testing/head.jade', 438, 420 ]
+silly extracting entry testing/index.jade
+silly modified mode [ 'testing/index.jade', 438, 420 ]
+silly extracting entry testing/layout.jade
+silly modified mode [ 'testing/layout.jade', 438, 420 ]
+silly extracting entry testing/user.jade
+silly modified mode [ 'testing/user.jade', 438, 420 ]
+silly extracting entry bin/jade
+silly modified mode [ 'bin/jade', 438, 420 ]
+silly extracting entry jade.md
+silly modified mode [ 'jade.md', 438, 420 ]
+silly extracting entry test.jade
+silly modified mode [ 'test.jade', 438, 420 ]
+silly extracting entry lib/compiler.js
+silly modified mode [ 'lib/compiler.js', 438, 420 ]
+silly extracting entry lib/filters.js
+silly modified mode [ 'lib/filters.js', 438, 420 ]
+silly extracting entry lib/inline-tags.js
+silly modified mode [ 'lib/inline-tags.js', 438, 420 ]
+silly extracting entry lib/jade.js
+silly modified mode [ 'lib/jade.js', 438, 420 ]
+silly extracting entry lib/doctypes.js
+silly modified mode [ 'lib/doctypes.js', 438, 420 ]
+silly extracting entry lib/self-closing.js
+silly modified mode [ 'lib/self-closing.js', 438, 420 ]
+http 200 https://registry.npmjs.org/express/-/express-3.0.0rc2.tgz
+silly extracting entry lib/parser.js
+silly modified mode [ 'lib/parser.js', 438, 420 ]
+silly extracting entry lib/runtime.js
+silly modified mode [ 'lib/runtime.js', 438, 420 ]
+silly extracting entry lib/utils.js
+silly modified mode [ 'lib/utils.js', 438, 420 ]
+silly extracting entry lib/lexer.js
+silly modified mode [ 'lib/lexer.js', 438, 420 ]
+silly extracting entry lib/nodes/attrs.js
+silly modified mode [ 'lib/nodes/attrs.js', 438, 420 ]
+silly extracting entry lib/nodes/code.js
+silly modified mode [ 'lib/nodes/code.js', 438, 420 ]
+silly extracting entry lib/nodes/comment.js
+silly modified mode [ 'lib/nodes/comment.js', 438, 420 ]
+silly extracting entry lib/nodes/doctype.js
+silly modified mode [ 'lib/nodes/doctype.js', 438, 420 ]
+silly extracting entry lib/nodes/case.js
+silly modified mode [ 'lib/nodes/case.js', 438, 420 ]
+silly extracting entry lib/nodes/filter.js
+silly modified mode [ 'lib/nodes/filter.js', 438, 420 ]
+silly extracting entry lib/nodes/index.js
+silly modified mode [ 'lib/nodes/index.js', 438, 420 ]
+silly extracting entry lib/nodes/literal.js
+silly modified mode [ 'lib/nodes/literal.js', 438, 420 ]
+silly extracting entry lib/nodes/mixin.js
+silly modified mode [ 'lib/nodes/mixin.js', 438, 420 ]
+silly extracting entry lib/nodes/node.js
+silly modified mode [ 'lib/nodes/node.js', 438, 420 ]
+silly extracting entry lib/nodes/block.js
+silly modified mode [ 'lib/nodes/block.js', 438, 420 ]
+silly extracting entry lib/nodes/tag.js
+silly modified mode [ 'lib/nodes/tag.js', 438, 420 ]
+silly extracting entry lib/nodes/block-comment.js
+silly modified mode [ 'lib/nodes/block-comment.js', 438, 420 ]
+silly extracting entry lib/nodes/text.js
+silly modified mode [ 'lib/nodes/text.js', 438, 420 ]
+silly extracting entry lib/nodes/each.js
+silly modified mode [ 'lib/nodes/each.js', 438, 420 ]
+verbose caching C:\Users\Office\AppData\Roaming\npm-cache\jade\0.27.2\package\package.json
+verbose loadDefaults jade@0.27.2
+silly updated sha bytes 40960
+silly updated sha bytes 11230
+info shasum 5d2d18952ddbf7daaf6cb580e6c05bbac188a441
+info shasum C:\Users\Office\AppData\Roaming\npm-cache\jade\0.27.2\package.tgz
+verbose from cache C:\Users\Office\AppData\Roaming\npm-cache\jade\0.27.2\package\package.json
+verbose chmod C:\Users\Office\AppData\Roaming\npm-cache\jade\0.27.2\package.tgz 644
+silly skipping chown for windows C:\Users\Office\AppData\Roaming\npm-cache\jade\0.27.2\package.tgz
+silly updated sha bytes 33947
+info shasum ffa79ccee41abc97f2c57576cc433339200fcd33
+info shasum C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420394534-0.975907796761021\tmp.tgz
+verbose unpack C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420394534-0.975907796761021\tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry LICENSE
+silly extracting entry client.js
+silly extracting entry index.js
+silly extracting entry test.js
+silly extracting entry .travis.yml
+silly extracting entry History.md
+silly extracting entry Makefile
+silly extracting entry bin/express
+silly extracting entry Readme.md
+silly extracting entry lib/application.js
+silly extracting entry lib/express.js
+silly extracting entry lib/middleware.js
+silly extracting entry lib/request.js
+silly extracting entry lib/response.js
+silly extracting entry lib/utils.js
+silly extracting entry lib/view.js
+silly extracting entry lib/router/index.js
+silly extracting entry lib/router/route.js
+verbose caching C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420394534-0.975907796761021\package\package.json
+verbose loadDefaults express@3.0.0rc2
+verbose from cache C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420394534-0.975907796761021\package\package.json
+verbose tar.pack [ 'C:\\Users\\Office\\AppData\\Roaming\\npm-cache\\express\\3.0.0rc2\\package.tgz',
+verbose tar.pack   'C:\\Users\\Office\\AppData\\Local\\Temp\\npm-1344420362072\\1344420394534-0.975907796761021\\package' ]
+verbose tarball C:\Users\Office\AppData\Roaming\npm-cache\express\3.0.0rc2\package.tgz
+verbose folder C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420394534-0.975907796761021\package
+verbose unpack C:\Users\Office\AppData\Roaming\npm-cache\express\3.0.0rc2\package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly modified mode [ 'package.json', 438, 420 ]
+silly extracting entry .npmignore
+silly modified mode [ '.npmignore', 438, 420 ]
+silly extracting entry LICENSE
+silly modified mode [ 'LICENSE', 438, 420 ]
+silly extracting entry client.js
+silly modified mode [ 'client.js', 438, 420 ]
+silly extracting entry index.js
+silly modified mode [ 'index.js', 438, 420 ]
+silly extracting entry test.js
+silly modified mode [ 'test.js', 438, 420 ]
+silly extracting entry .travis.yml
+silly modified mode [ '.travis.yml', 438, 420 ]
+silly extracting entry History.md
+silly modified mode [ 'History.md', 438, 420 ]
+silly extracting entry Makefile
+silly modified mode [ 'Makefile', 438, 420 ]
+silly extracting entry bin/express
+silly modified mode [ 'bin/express', 438, 420 ]
+silly extracting entry Readme.md
+silly modified mode [ 'Readme.md', 438, 420 ]
+silly extracting entry lib/application.js
+silly modified mode [ 'lib/application.js', 438, 420 ]
+silly extracting entry lib/express.js
+silly modified mode [ 'lib/express.js', 438, 420 ]
+silly extracting entry lib/middleware.js
+silly modified mode [ 'lib/middleware.js', 438, 420 ]
+silly extracting entry lib/request.js
+silly modified mode [ 'lib/request.js', 438, 420 ]
+silly extracting entry lib/response.js
+silly modified mode [ 'lib/response.js', 438, 420 ]
+silly extracting entry lib/utils.js
+silly modified mode [ 'lib/utils.js', 438, 420 ]
+silly extracting entry lib/view.js
+silly modified mode [ 'lib/view.js', 438, 420 ]
+silly extracting entry lib/router/index.js
+silly modified mode [ 'lib/router/index.js', 438, 420 ]
+silly extracting entry lib/router/route.js
+silly modified mode [ 'lib/router/route.js', 438, 420 ]
+verbose caching C:\Users\Office\AppData\Roaming\npm-cache\express\3.0.0rc2\package\package.json
+verbose loadDefaults express@3.0.0rc2
+silly updated sha bytes 33863
+info shasum 0287530cfb2065c3725f77ce29f32141ba964b1c
+info shasum C:\Users\Office\AppData\Roaming\npm-cache\express\3.0.0rc2\package.tgz
+verbose from cache C:\Users\Office\AppData\Roaming\npm-cache\express\3.0.0rc2\package\package.json
+verbose chmod C:\Users\Office\AppData\Roaming\npm-cache\express\3.0.0rc2\package.tgz 644
+silly skipping chown for windows C:\Users\Office\AppData\Roaming\npm-cache\express\3.0.0rc2\package.tgz
+silly updated sha bytes 35205
+info shasum 9f1dc1bb22fb03a6dbd5e94a50cf5d6c168823d8
+info shasum C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420379076-0.7390168346464634\tmp.tgz
+verbose unpack C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420379076-0.7390168346464634\tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry LICENSE
+silly extracting entry index.js
+silly extracting entry .travis.yml
+silly extracting entry benchmarks/decode.bench.js
+silly extracting entry benchmarks/encode.bench.js
+silly extracting entry benchmarks/runner.js
+silly extracting entry History.md
+silly extracting entry lib/client.js
+silly extracting entry lib/manager.js
+silly extracting entry lib/namespace.js
+silly extracting entry lib/parser.js
+silly extracting entry lib/socket.io.js
+silly extracting entry lib/logger.js
+silly extracting entry lib/static.js
+silly extracting entry lib/store.js
+silly extracting entry lib/transport.js
+silly extracting entry lib/util.js
+silly extracting entry lib/socket.js
+silly extracting entry lib/stores/memory.js
+silly extracting entry lib/stores/redis.js
+silly extracting entry lib/transports/flashsocket.js
+silly extracting entry lib/transports/htmlfile.js
+silly extracting entry lib/transports/http-polling.js
+silly extracting entry lib/transports/http.js
+silly extracting entry lib/transports/index.js
+silly extracting entry lib/transports/jsonp-polling.js
+silly extracting entry lib/transports/websocket.js
+silly extracting entry lib/transports/xhr-polling.js
+silly extracting entry lib/transports/websocket/default.js
+silly extracting entry lib/transports/websocket/hybi-07-12.js
+silly extracting entry lib/transports/websocket/hybi-16.js
+silly extracting entry lib/transports/websocket/index.js
+silly extracting entry Makefile
+silly extracting entry Readme.md
+verbose caching C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420379076-0.7390168346464634\package\package.json
+verbose loadDefaults socket.io@0.9.9
+verbose from cache C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420379076-0.7390168346464634\package\package.json
+verbose tar.pack [ 'C:\\Users\\Office\\AppData\\Roaming\\npm-cache\\socket.io\\0.9.9\\package.tgz',
+verbose tar.pack   'C:\\Users\\Office\\AppData\\Local\\Temp\\npm-1344420362072\\1344420379076-0.7390168346464634\\package' ]
+verbose tarball C:\Users\Office\AppData\Roaming\npm-cache\socket.io\0.9.9\package.tgz
+verbose folder C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420379076-0.7390168346464634\package
+verbose unpack C:\Users\Office\AppData\Roaming\npm-cache\socket.io\0.9.9\package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly modified mode [ 'package.json', 438, 420 ]
+silly extracting entry .npmignore
+silly modified mode [ '.npmignore', 438, 420 ]
+silly extracting entry LICENSE
+silly modified mode [ 'LICENSE', 438, 420 ]
+silly extracting entry index.js
+silly modified mode [ 'index.js', 438, 420 ]
+silly extracting entry .travis.yml
+silly modified mode [ '.travis.yml', 438, 420 ]
+silly extracting entry benchmarks/decode.bench.js
+silly modified mode [ 'benchmarks/decode.bench.js', 438, 420 ]
+silly extracting entry benchmarks/encode.bench.js
+silly modified mode [ 'benchmarks/encode.bench.js', 438, 420 ]
+silly extracting entry benchmarks/runner.js
+silly modified mode [ 'benchmarks/runner.js', 438, 420 ]
+silly extracting entry History.md
+silly modified mode [ 'History.md', 438, 420 ]
+silly extracting entry lib/client.js
+silly modified mode [ 'lib/client.js', 438, 420 ]
+silly extracting entry lib/manager.js
+silly modified mode [ 'lib/manager.js', 438, 420 ]
+silly extracting entry lib/namespace.js
+silly modified mode [ 'lib/namespace.js', 438, 420 ]
+silly extracting entry lib/parser.js
+silly modified mode [ 'lib/parser.js', 438, 420 ]
+silly extracting entry lib/socket.io.js
+silly modified mode [ 'lib/socket.io.js', 438, 420 ]
+silly extracting entry lib/logger.js
+silly modified mode [ 'lib/logger.js', 438, 420 ]
+silly extracting entry lib/static.js
+silly modified mode [ 'lib/static.js', 438, 420 ]
+silly extracting entry lib/store.js
+silly modified mode [ 'lib/store.js', 438, 420 ]
+silly extracting entry lib/transport.js
+silly modified mode [ 'lib/transport.js', 438, 420 ]
+silly extracting entry lib/util.js
+silly modified mode [ 'lib/util.js', 438, 420 ]
+silly extracting entry lib/socket.js
+silly modified mode [ 'lib/socket.js', 438, 420 ]
+silly extracting entry lib/stores/memory.js
+silly modified mode [ 'lib/stores/memory.js', 438, 420 ]
+silly extracting entry lib/stores/redis.js
+silly modified mode [ 'lib/stores/redis.js', 438, 420 ]
+silly extracting entry lib/transports/flashsocket.js
+silly modified mode [ 'lib/transports/flashsocket.js', 438, 420 ]
+silly extracting entry lib/transports/htmlfile.js
+silly modified mode [ 'lib/transports/htmlfile.js', 438, 420 ]
+silly extracting entry lib/transports/http-polling.js
+silly modified mode [ 'lib/transports/http-polling.js', 438, 420 ]
+silly extracting entry lib/transports/http.js
+silly modified mode [ 'lib/transports/http.js', 438, 420 ]
+silly extracting entry lib/transports/index.js
+silly modified mode [ 'lib/transports/index.js', 438, 420 ]
+silly extracting entry lib/transports/jsonp-polling.js
+silly modified mode [ 'lib/transports/jsonp-polling.js', 438, 420 ]
+silly extracting entry lib/transports/websocket.js
+silly modified mode [ 'lib/transports/websocket.js', 438, 420 ]
+silly extracting entry lib/transports/xhr-polling.js
+silly modified mode [ 'lib/transports/xhr-polling.js', 438, 420 ]
+silly extracting entry lib/transports/websocket/default.js
+silly modified mode [ 'lib/transports/websocket/default.js', 438, 420 ]
+silly extracting entry lib/transports/websocket/hybi-07-12.js
+silly modified mode [ 'lib/transports/websocket/hybi-07-12.js', 438, 420 ]
+silly extracting entry lib/transports/websocket/hybi-16.js
+silly modified mode [ 'lib/transports/websocket/hybi-16.js', 438, 420 ]
+silly extracting entry lib/transports/websocket/index.js
+silly modified mode [ 'lib/transports/websocket/index.js', 438, 420 ]
+silly extracting entry Makefile
+silly modified mode [ 'Makefile', 438, 420 ]
+silly extracting entry Readme.md
+silly modified mode [ 'Readme.md', 438, 420 ]
+verbose caching C:\Users\Office\AppData\Roaming\npm-cache\socket.io\0.9.9\package\package.json
+verbose loadDefaults socket.io@0.9.9
+silly updated sha bytes 35035
+info shasum 6bec9a4730d266ed6dd91e84f911434df5633e14
+info shasum C:\Users\Office\AppData\Roaming\npm-cache\socket.io\0.9.9\package.tgz
+verbose from cache C:\Users\Office\AppData\Roaming\npm-cache\socket.io\0.9.9\package\package.json
+verbose chmod C:\Users\Office\AppData\Roaming\npm-cache\socket.io\0.9.9\package.tgz 644
+silly skipping chown for windows C:\Users\Office\AppData\Roaming\npm-cache\socket.io\0.9.9\package.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 31953
+info shasum ca532f9315f6a62876af35ef41e09876f083ddc3
+info shasum C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420381992-0.4247229986358434\tmp.tgz
+verbose unpack C:\Users\Office\AppData\Local\Temp\npm-1344420362072\1344420381992-0.4247229986358434\tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry LICENSE
+silly extracting entry index.js
+silly extracting entry test.js
+silly extracting entry lib/cache.js
+silly extracting entry lib/connect.js
+silly extracting entry lib/index.js
+silly extracting entry lib/patch.js
+silly extracting entry lib/proto.js
+silly extracting entry lib/utils.js
+silly extracting entry lib/middleware/basicAuth.js
+silly extracting entry lib/middleware/errorHandler.js
