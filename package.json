@@ -1,0 +1,59 @@
+{
+  'name': 'omega-machine',
+  'description': 'Studio Mockingbird testbed',
+  'version': '0.1.0',
+  'author': {
+    'name': 'Rishav Sharan',
+    'email': 'rishav.sharan@gmail.com'
+  },
+  'contributors': [
+    {
+      'name': 'none',
+      'email': 'none@mail.com'
+    },
+    {
+      'name': 'none',
+      'email': 'none@mail.com'
+    }
+  ],
+  'dependencies': {
+    'connect': '*',
+    'connect-assetmanager' : '*',
+    'connect-assetmanager-handlers' : '*',
+    'express' : '*',
+    'socket.io' : '*',
+    'connect-redis' : '*',
+    'connect-notifo' : '*',
+    'airbrake' : '*',
+    'passport' : '*',
+    'bcrypt': '*',
+    'mongodb': '*',
+    'moment' : '*',        
+    'emailjs': '*'     
+  },
+  'devDependencies': {
+    'mocha': '*',
+    'jade': '*',
+    'stylus': '*',
+    'supertest': '*'
+  },
+  'keywords': [
+    'omega-machine',
+    'rishav',
+    'sharan'
+  ],
+  'publishConfig': {
+    'tag': '0.1.0'
+  },
+  'repository': {
+    'type': 'none',
+    'url': 'none'
+  },
+  'scripts': {
+    'prepublish': 'npm prune',
+    'test': 'make test'
+  },
+  'engines': {
+    'node': '*'
+  },
+}
